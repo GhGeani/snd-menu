@@ -1,0 +1,41 @@
+.menu-header {
+  position: sticky;
+  top: 0;
+}
+
+.active {
+  color: black !important;
+  background-color: red !important;
+}
+
+.menu-header > ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  list-style-type: none;
+  border-bottom: .1rem double red;
+}
+
+.menu-header > ul > li {
+  padding: 0.5rem 1.5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  border-right: .1rem solid grey;
+}
+
+.menu-header > ul > li {
+  background-color: black;
+}
+
+.menu-header > ul > li:last-child {
+  border-right: 0;
+}
+
+.menu-header > ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}

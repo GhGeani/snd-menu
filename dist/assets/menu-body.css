@@ -1,0 +1,82 @@
+main.menu-body > section {
+  color: white;
+}
+
+main.menu-body > section {
+  transition: all 1s ease-in-out;
+  background-color: red;
+}
+
+main.menu-body > section {
+  padding: .1rem
+}
+
+main.menu-body > section:first-child {
+  padding-top: 3.7rem;
+  margin-top: -1rem;
+}
+
+main.menu-body > section > h2 {
+  padding: 1rem;
+  color: black;
+}
+
+main.menu-body .menu-item {
+  background-color: black;
+  border-bottom: .1rem solid red;
+}
+
+main.menu-body .menu-item > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+main.menu-body .menu-item > summary > .name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+main.menu-body .menu-item h4 {
+  font-weight: 400 !important;
+}
+
+main.menu-body .menu-item > p  {
+  padding: 0 2rem 1rem;
+  display: block;
+}
+
+main.menu-body .menu-item .price {
+  color: orange;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Arrow transition START */
+main.menu-body .menu-item > summary > .name-wrapper > svg {
+  transition: transform .1s ease-in-out;
+}
+
+main.menu-body .menu-item[open] .name-wrapper > svg {
+  transform: rotate(90deg);
+}
+/* Arrow transition FINISH */
+
+/* Details description transition START */
+main.menu-body .menu-item::details-content {
+  /* background-color: grey; */
+  block-size: 0;
+  transition-property: block-size, content-visibility;
+	transition-duration: .1s;
+	transition-behavior: allow-discrete;
+  color: black
+}
+
+main.menu-body .menu-item[open]::details-content {
+	block-size: auto;
+	block-size: calc-size(auto, size);
+  color: white;
+}
+/* Details description transition FINISH  */
