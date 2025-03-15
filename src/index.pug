@@ -1,0 +1,215 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Fastfood S&amp;D
+    meta(name="description" content="Meniu Fastfood S&D")
+    meta(name="keywords" content="Fastfood, S&D, Burger, Bauturi, Pizza, Shaorma")
+    meta(name="author" content="Fastfood S&D")
+    link(rel="stylesheet" href="/assets/styles.css")
+  body
+    include ./reusable/menu-entry.pug
+    include ./reusable/menu-header.pug
+    nav.menu-header
+      ul
+        +menu-header('#menus', 'Meniuri')
+        +menu-header('#pizzas', 'Pizza')
+        +menu-header('#shaormas', 'Shaorma')
+        +menu-header('#burgers', 'Burgeri')
+        +menu-header('#side-dishes', 'Garnituri')
+        +menu-header('#sauces', 'Sosuri')
+        +menu-header('#drinks', 'Bauturi')
+    main.menu-body
+      section#menus
+        +menu-entry('Meniu ARIPIOARE CRISPY 450gr.', 
+          '31', 
+          'aripioare pui picante, cartofi prajiti, chifla, sos de usturoi, ketchup, bautura racoritoare/apa'
+        )
+        +menu-entry('Meniu CARNACIOARI 400gr.', 
+          '26', 
+          'trei carnaciori, cartofi prajiti, chifla, mustar, salata varza, bautura racoritoare/apa'
+        )
+        +menu-entry('Meniu MICI 400gr.', 
+          '25', 
+          'trei mici, cartofi prajiti, chifla, mustar, salata varza, bautura racoritoare/apa'
+        )
+        +menu-entry('Meniu NUGGETS 400gr.', 
+          '25', 
+          'opt bucati nuggets de pui, cartofi prajiti, sos usturoi, bautura racoritoare/apa'
+        )
+        +menu-entry('Meniu COPII 300gr.', 
+          '21', 
+          'cinci bucati nuggets de pui, ketchup, bautura racoritoare/apa'
+        )
+      section#pizzas
+        h2 Pizza
+        +menu-entry('CASEI 30/50cm', 
+          '32/53', 
+          'sos pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei, porumb'
+        )
+        +menu-entry('TARANEASCA 30/50cm', 
+          '32/53', 
+          'sos pizza, cârnați, ceapă, mozzarella, bacon, ardei, porumb'
+        )
+        +menu-entry('KEBAB 30/50cm',
+          '35/60',
+          'sos pizza, cartofi prăjiți, carne pui, mozzarella, roșii, rucola'
+        )
+        +menu-entry('PROSCIUTO CRUDO 30/50cm',
+          '33/xx',
+          'sos pizza, prosciutto crudo, mozzarella, rucola, roșii, parmezan'
+        )
+        +menu-entry('CHORIZZO 30/50cm',
+          '31/xx',
+          'sos pizza, salam chorizzo, mozzarella'
+        )
+        +menu-entry('CU TON 30/50cm',
+          '31/xx',
+          'sos pizza, ceapă, mozzarella, ton, porumb'
+        )
+        +menu-entry('MARGHERITA 30/50cm',
+          '26/xx',
+          'sos pizza, mozzarella'
+        )
+        +menu-entry('CARBONARA 30/50cm',
+          '31/xx',
+          'sos alb, bacon, ou, mozzarella'
+        )
+        +menu-entry('QUATTRO STAGIONE 30/50cm',
+          '31/xx',
+          'sos pizza, șuncă, ton, măsline, ciuperci, mozzarella'
+        )
+        +menu-entry('SANDWICH CU PUI 30/50cm',
+          'xx',
+          'sos pizza, carne pui, mozzarella, măsline, ciuperci'
+        )
+        +menu-entry('MORTADELLA 30/50cm',
+          'xx',
+          'sos pizza, cremă brânză, mozzarella, mortadella, rucola, parmezan'
+        )
+        +menu-entry('CREMOSA 30/50cm',
+          'xx',
+          'sos alb, mozzarella, cremă brânză, șuncă'
+        )
+        +menu-entry('CALZONE 30/50cm',
+          'xx',
+          'mozzarella, șuncă, sos roșii'
+        )
+        +menu-entry('CAPRICIOSA 30/50cm',
+          'xx',
+          'sos roșii, bacon, mozzarella, ciuperci, măsline'
+        )
+        +menu-entry('VEGETALA 30/50cm',
+          'xx',
+          'sos pizza, ciuperci, măsline, ardei, porumb, ceapă'
+        )
+        +menu-entry('FOCACCIA',
+          '12',
+          'simplă (fără ingrediente menționate)'
+        )
+        +menu-entry('FOCACCIA CU PARMESAN',
+          '13',
+          'focaccia cu parmezan (fără alte ingrediente menționate)'
+        )
+
+      section#shaormas
+        h2 Shaorma
+        +menu-entry('Shaorma pui mica 390gr.', 
+          '24', 
+          'lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+        )
+        +menu-entry('Shaorma pui mare 590gr.', 
+          '27', 
+          'lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+        )
+        +menu-entry('Shaorma pui farfurie 550gr.', 
+          '30', 
+          'lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+        )
+        +menu-entry('Shaorma vita mica 390gr.', 
+          '30', 
+          'lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+        )
+        +menu-entry('Shaorma vita mare 590gr.', 
+          '33', 
+          'lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+        )
+        +menu-entry('Shaorma vita farfurie 550gr.', 
+          '35', 
+          'lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+        )
+      section#burgers
+        h2 Burgeri
+        +menu-entry('Hamburger PORC 390gr.', 
+          '20',
+          'chiflă, carne porc, salată varză, cartofi prăjiți, ketchup, maioneză'
+        )
+        +menu-entry('Hamburger PUI 390gr.',
+          '20',
+          'chiflă, carne pui, salată varză, cartofi prăjiți, ketchup, maioneză'
+        )
+        +menu-entry('Hamburger PORC cu ou 440gr.',
+          '22',
+          'chiflă, carne porc, salată varză, cartofi prăjiți, ou, ketchup, maioneză'
+        )
+        +menu-entry('Hamburger PUI cu ou 440gr.',
+          '22',
+          'chiflă, carne pui, salată varză, cartofi prăjiți, ou, ketchup, maioneză'
+        )
+        +menu-entry('Cheeseburger PORC 420gr.',
+          '22',
+          'chiflă, carne porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză, ketchup'
+        )
+        +menu-entry('Cheeseburger PUI 420gr.',
+          '22',
+          'chiflă, carne pui, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză, ketchup'
+        )
+        +menu-entry('Kebab PUI 310gr.',
+          '23',
+          'pită, carne pui, cartofi prăjiți, castraveți murați, ceapă, roșii, salată varză, sos usturoi'
+        )
+        +menu-entry('Kebab VITA 310gr.',
+          '25',
+          'pită, carne vită, cartofi prăjiți, castraveți murați, ceapă, roșii, salată varză, sos usturoi'
+        )
+        +menu-entry('Bagheta cu pui 350gr.',
+          '25',
+          'baghetă, piept de pui, roșii, salată verde, castraveți'
+        )
+        +menu-entry('Sandwich cald 250gr.',
+          '16',
+          'șuncă, cașcaval, roșii, castraveți'
+        )
+      section#side-dishes
+        h2 Garnituri
+        +menu-entry('Chifla', '2')
+        +menu-entry('Cartofi prajiti', '7')
+        +menu-entry('Salata castraveti', '5')
+        +menu-entry('Salata varza', '5')
+      section#sauces
+        h2 Sosuri
+        +menu-entry('Maioneza', '3')
+        +menu-entry('Ketchup', '3')
+        +menu-entry('Sos usturoi', '3')
+        +menu-entry('Mustar', '3')
+      section#drinks
+        h2 Bauturi
+        +menu-entry('Ayran', '5')
+        +menu-entry('Coca Cola 330ml', '8')
+        +menu-entry('Coca Cola 500ml', '10')
+        +menu-entry('Schweppes 500ml', '10')
+        +menu-entry('Sprite 300ml', '8')
+        +menu-entry('Sprite 500ml', '10')
+        +menu-entry('Granini 300ml', '8')
+        +menu-entry('Nestea 500ml', '10')
+        +menu-entry('Apa 500ml', '6')
+        +menu-entry('Energizant 250ml', '10')
+        +menu-entry('Energizant 500ml', '12')
+        +menu-entry('Cafea', '5')
+        +menu-entry('Carlsberg 330ml', '11')
+        +menu-entry('Carlsberg 500ml', '12')
+        +menu-entry('Tuborg 330ml', '9')
+        +menu-entry('Tuborg 500ml', '10')
+
+    script(type="module", src="/assets/script.js") 
