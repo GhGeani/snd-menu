@@ -3,8 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master 
+      - master
   workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write 
 
 jobs:
   build:
@@ -22,6 +27,7 @@ jobs:
       - name: 🚀 Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages 
+          branch: gh-pages
           folder: dist
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
