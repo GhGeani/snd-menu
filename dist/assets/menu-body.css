@@ -12,13 +12,20 @@ main.menu-body > section {
 }
 
 main.menu-body > section:first-child {
-  padding-top: 3.7rem;
-  margin-top: -1rem;
+  padding-top: 4.7rem;
+  margin-top: -3rem;
 }
 
 main.menu-body > section > h2 {
   padding: 1rem;
   color: black;
+}
+
+main.menu-body > section > h2.expandable-hint::after {
+  content: '(pt. detalii apasa produsul)';
+  font-size: 1rem;
+  padding-left: .4rem;
+  font-weight: 400;
 }
 
 main.menu-body .menu-item {
@@ -37,6 +44,10 @@ main.menu-body .menu-item > summary > .name-wrapper {
   display: flex;
   align-items: center;
   gap: .5rem;
+}
+
+main.menu-body .menu-item > summary::-webkit-details-marker {
+  display: none;
 }
 
 main.menu-body .menu-item h4 {
