@@ -5,6 +5,8 @@
 
 .active {
   color: black !important;
+  transition-property: background-color, color;
+  transition-duration: .5s;
   background-color: red !important;
 }
 
