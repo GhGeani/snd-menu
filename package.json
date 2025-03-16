@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "live-server ./dist --watch --port=3000",
+    "server": "live-server ./dist --watch --port=3000 --host=0.0.0.0",
     "watch:pug": "chokidar './src/index.pug' './src/reusable/*' -c 'pug ./src/index.pug --out ./dist'",
     "copy:assets": "copyfiles -u 1 ./src/assets/* ./dist",
     "watch:assets": "chokidar './src/assets/*' -c 'npm run copy:assets'",
