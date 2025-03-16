@@ -9,8 +9,19 @@ document.addEventListener('DOMContentLoaded', loadQOLFunctions);
  * - Moving the active menu item to the left
  */
 function loadQOLFunctions() {
+  redirectToSelectedItem();
   handleMenuNavigation();
   handleScrollNavigation();
+}
+
+
+function redirectToSelectedItem() {
+  if (!location.hash) {
+    const firstSection = document.querySelectorAll('main.menu-body > section')[0];
+    location.hash = `#${firstSection.id}`;
+  } else {
+    moveActiveMenuItemLeft(document.querySelector(location.hash));
+  }
 }
 
 /**
@@ -60,6 +71,7 @@ function handleScrollNavigation() {
       if (item.querySelector('a').getAttribute('href').includes(currentSection)) {
         item.classList.add('active');
         moveActiveMenuItemLeft(item);
+        // location.hash = `#${currentSection}`;
       }
     });
   });
