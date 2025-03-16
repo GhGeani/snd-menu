@@ -5,6 +5,6 @@ mixin menu-entry(name, price, description)
         svg(style=description ? 'display: inline-block;' : 'display:none;' width="10" height="10" viewBox="0 0 10 10")
           polygon(points="0,0 10,5 0,10" fill="red")
         h4.card-title=name
-      p.price #{price} lei
+      p.price #{price} LEI
     if description
       p=description
