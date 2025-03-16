@@ -52,6 +52,7 @@ main.menu-body .menu-item > summary::-webkit-details-marker {
 
 main.menu-body .menu-item h4 {
   font-weight: 400 !important;
+  padding-right: 1rem;
 }
 
 main.menu-body .menu-item > p  {
@@ -63,6 +64,8 @@ main.menu-body .menu-item .price {
   color: orange;
   font-weight: bold;
   font-size: larger;
+  padding-left: 1rem;
+  text-wrap: nowrap;
 }
 
 /* Arrow transition START */
