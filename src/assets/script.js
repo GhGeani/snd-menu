@@ -61,7 +61,6 @@ function handleScrollNavigation() {
   window.addEventListener('scroll', () => {
     let currentSection = '';
     if (window.pageYOffset < 60) {
-      console.log(sections[0].getAttribute('id'));
       currentSection = sections[0].getAttribute('id');
     } else {
       sections.forEach(section => {
