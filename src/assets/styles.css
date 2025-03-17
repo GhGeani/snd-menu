@@ -3,6 +3,14 @@
 @import url('menu-header.css');
 @import url('menu-body.css');
 
+:root {
+  --color-white: #ffffff;
+  --color-yellow: #ffa31a;
+  --color-black: #1b1b1b;
+  --color-orange: #ff7300;
+  --color-grey: #292929;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,8 +29,4 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.padd-t-15 {
-  padding-top: 1.5rem;
 }
