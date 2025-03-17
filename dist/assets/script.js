@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', loadQOLFunctions);
  * - Moving the active menu item to the left
  */
 function loadQOLFunctions() {
-  redirectToSelectedItem();
+  // redirectToSelectedItem();
   handleMenuNavigation();
   handleScrollNavigation();
 }
@@ -60,12 +60,17 @@ function handleScrollNavigation() {
   const sections = document.querySelectorAll('main.menu-body > section');
   window.addEventListener('scroll', () => {
     let currentSection = '';
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      if (pageYOffset >= sectionTop - 50) {
-        currentSection = section.getAttribute('id');
-      }
-    });
+    if (window.pageYOffset < 60) {
+      console.log(sections[0].getAttribute('id'));
+      currentSection = sections[0].getAttribute('id');
+    } else {
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (window.pageYOffset >= sectionTop - 50) {
+          currentSection = section.getAttribute('id');
+        }
+      });
+    }
     menuItems.forEach(item => {
       item.classList.remove('active');
       if (item.querySelector('a').getAttribute('href').includes(currentSection)) {

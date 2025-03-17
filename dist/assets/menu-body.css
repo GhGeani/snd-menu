@@ -4,7 +4,7 @@ main.menu-body > section {
 
 main.menu-body > section {
   transition: all 1s ease-in-out;
-  background-color: red;
+  background-color: var(--color-yellow);
 }
 
 main.menu-body > section {
@@ -12,13 +12,12 @@ main.menu-body > section {
 }
 
 main.menu-body > section:first-child {
-  padding-top: 4.7rem;
-  margin-top: -3rem;
+  padding-top: .5rem;
 }
 
 main.menu-body > section > h2 {
   padding: 1rem;
-  color: black;
+  color: var(--color-black);
 }
 
 main.menu-body > section > h2.expandable-hint::after {
@@ -29,8 +28,12 @@ main.menu-body > section > h2.expandable-hint::after {
 }
 
 main.menu-body .menu-item {
-  background-color: black;
-  border-bottom: .1rem solid red;
+  background-color: var(--color-black);
+  border-bottom: .1rem solid var(--color-yellow);
+}
+
+main.menu-body .menu-item .arrow {
+  fill: var(--color-orange)
 }
 
 main.menu-body .menu-item > summary {
@@ -56,12 +59,12 @@ main.menu-body .menu-item h4 {
 }
 
 main.menu-body .menu-item > p  {
-  padding: 0 2rem 1rem;
+  padding: 1rem 2rem 1rem;
   display: block;
 }
 
 main.menu-body .menu-item .price {
-  color: orange;
+  color: var(--color-orange);
   font-weight: bold;
   font-size: larger;
   padding-left: 1rem;
@@ -80,17 +83,18 @@ main.menu-body .menu-item[open] .name-wrapper > svg {
 
 /* Details description transition START */
 main.menu-body .menu-item::details-content {
-  /* background-color: grey; */
   block-size: 0;
   transition-property: block-size, content-visibility;
-	transition-duration: .1s;
+	transition-duration: .3s;
 	transition-behavior: allow-discrete;
-  color: black
+  transition-timing-function: ease-in-out;
+  color: transparent;
+  background-color: var(--color-grey);
 }
 
 main.menu-body .menu-item[open]::details-content {
 	block-size: auto;
 	block-size: calc-size(auto, size);
-  color: white;
+  color: var(--color-white);
 }
 /* Details description transition FINISH  */
