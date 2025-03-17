@@ -20,13 +20,6 @@ main.menu-body > section > h2 {
   color: var(--color-black);
 }
 
-main.menu-body > section > h2.expandable-hint::after {
-  content: '(pt. detalii apasa produsul)';
-  font-size: 1rem;
-  padding-left: .4rem;
-  font-weight: 400;
-}
-
 main.menu-body .menu-item {
   background-color: var(--color-black);
   border-bottom: .1rem solid var(--color-yellow);
