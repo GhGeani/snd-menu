@@ -6,10 +6,12 @@
     "server": "live-server ./dist --watch --port=3000 --host=0.0.0.0",
     "watch:pug": "chokidar './src/index.pug' './src/reusable/*' -c 'pug ./src/index.pug --out ./dist'",
     "copy:assets": "copyfiles -u 1 ./src/assets/* ./dist",
+    "copy:imgs": "copyfiles -u 1 ./src/imgs/* ./dist",
     "watch:assets": "chokidar './src/assets/*' -c 'npm run copy:assets'",
-    "dev:server": "npm-run-all --parallel server watch:pug watch:assets",
+    "watch:imgs": "chokidar './src/imgs/*' -c 'npm run copy:imgs'",
+    "dev:server": "npm run build && npm-run-all --parallel server watch:pug watch:assets",
     "build:pug": "pug ./src/index.pug --out dist",
-    "build": "rm -rf ./dist && npm-run-all build:pug copy:assets"
+    "build": "rm -rf ./dist && npm-run-all build:pug copy:assets copy:imgs"
   },
   "keywords": [],
   "author": "",
