@@ -1,10 +1,16 @@
-mixin menu-entry(name, price, description)
+mixin menu-entry(name, price, description, imgSrc)
   details.menu-item
     summary
       .name-wrapper
         svg(class='arrow' style=description ? 'display: inline-block;' : 'display:none;' width="10" height="10" viewBox="0 0 10 10")
           polygon(points="0,0 10,5 0,10")
-        h4.card-title=name
-      p.price #{price} LEI
+        h4.card-title 
+          span.title #{name}
+          if imgSrc
+            p.price.padd-t-1.padd-l-0 #{price} LEI
+      if imgSrc
+        img.img-responsive(src=imgSrc alt=imgSrc title=imgSrc)
+      if !imgSrc
+        p.price #{price} LEI
     if description
       p=description
