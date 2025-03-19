@@ -25,14 +25,17 @@ html(lang="en")
       section#plates
         +menu-entry('Platou TRADITIONAL (pentru 4 persoane)', 
           '190',
-          'pulpe dezosate, ficati pui, ciolan porc, cârnați, murături, sos tatichi, muștar, focacia, ceapa roșie'
+          'pulpe dezosate, ficati pui, ciolan porc, cârnați, murături, sos tatichi, muștar, focacia, ceapa roșie',
+          'imgs/t-plate-bg.jpeg'
         )
         +menu-entry('Platou FRUCTE DE MARE', 
           '53',
-          '8 creveți, cartofi widget, sos usturoi, lămâie'
+          '8 creveți, cartofi widget, sos usturoi, lămâie',
+          'imgs/sea-food-plate-bg.jpeg'
         )
       section#menus
-        h2 Meniuri
+        .heading-wrapper
+          h2 Meniuri
         +menu-entry('Meniu ARIPIOARE CRISPY 450gr.', 
           '31', 
           'aripioare pui picante, cartofi prajiti, chifla, sos de usturoi, ketchup, bautura racoritoare/apa'
@@ -69,84 +72,108 @@ html(lang="en")
           '5 bucati nuggets de pui, ketchup, bautura racoritoare/apa'
         )
       section#pizzas
-        h2 Pizza
-        +menu-entry('CASEI 30/50cm', 
-          '32/53', 
-          'sos pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei, porumb'
-        )
-        +menu-entry('TARANEASCA 30/50cm', 
-          '32/53', 
-          'sos pizza, cârnați, ceapă, mozzarella, bacon, ardei, porumb'
-        )
-        +menu-entry('KEBAB 30/50cm',
-          '35/60',
-          'sos pizza, cartofi prăjiți, carne pui, mozzarella, roșii, rucola'
-        )
-        +menu-entry('PROSCIUTO CRUDO 30cm',
-          '33',
-          'sos pizza, prosciutto crudo, mozzarella, rucola, roșii, parmezan'
-        )
-        +menu-entry('CHORIZZO 30cm',
-          '31',
-          'sos pizza, salam chorizzo, mozzarella'
-        )
-        +menu-entry('CU TON 30cm',
-          '31',
-          'sos pizza, ceapă, mozzarella, ton, porumb'
-        )
-        +menu-entry('MARGHERITA 30cm',
-          '26',
-          'sos pizza, mozzarella'
-        )
-        +menu-entry('CARBONARA 30cm',
-          '31',
-          'sos alb, bacon, ou, mozzarella'
-        )
-        +menu-entry('QUATTRO STAGIONE 30cm',
-          '31',
-          'sos pizza, șuncă, ton, măsline, ciuperci, mozzarella'
-        )
-        +menu-entry('SANDWICH CU PUI 30cm',
-          '34',
-          'sos pizza, carne pui, mozzarella, măsline, ciuperci'
-        )
-        +menu-entry('MORTADELLA 30cm',
-          '34',
-          'sos pizza, cremă brânză, mozzarella, mortadella, rucola, parmezan'
-        )
-        +menu-entry('CREMOSA 30cm',
-          '33',
-          'sos alb, mozzarella, cremă brânză, șuncă'
-        )
-        //- +menu-entry('CALZONE 30/50cm',
-        //-   'xx',
-        //-   'mozzarella, șuncă, sos roșii'
-        //- )
-        //- +menu-entry('CAPRICIOSA 30/50cm',
-        //-   'xx',
-        //-   'sos roșii, bacon, mozzarella, ciuperci, măsline'
-        //- )
-        +menu-entry('VEGETALA 30cm',
-          '25',
-          'sos pizza, ciuperci, măsline, ardei, porumb, ceapă'
-        )
-        +menu-entry('FOCACCIA',
-          '12',
-          'simplă (fără ingrediente menționate)'
-        )
-        +menu-entry('FOCACCIA CU PARMESAN',
-          '13',
-          'focaccia cu parmezan (fără alte ingrediente menționate)'
-        )
+        .heading-wrapper
+          h2 Pizza
+          .select-pizza-size
+            input#pizza-size-30(type='radio' name='pizza-size' value='30' checked class='d-none')
+            label(for='pizza-size-30') 30cm
+
+            input#pizza-size-50(type='radio' name='pizza-size' value='50' class='d-none')
+            label(for="pizza-size-50") 50cm
+        .pizza-50cm-section
+          +menu-entry('CASEI', 
+            '53', 
+            'sos pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei, porumb'
+          )
+          +menu-entry('TARANEASCA', 
+            '53', 
+            'sos pizza, cârnați, ceapă, mozzarella, bacon, ardei, porumb'
+          )
+          +menu-entry('KEBAB',
+            '60',
+            'sos pizza, cartofi prăjiți, carne pui, mozzarella, roșii, rucola'
+          )
+        .pizza-30cm-section
+          +menu-entry('CASEI', 
+            '32', 
+            'sos pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei, porumb'
+          )
+          +menu-entry('TARANEASCA', 
+            '32', 
+            'sos pizza, cârnați, ceapă, mozzarella, bacon, ardei, porumb'
+          )
+          +menu-entry('KEBAB',
+            '35',
+            'sos pizza, cartofi prăjiți, carne pui, mozzarella, roșii, rucola'
+          )
+          +menu-entry('PROSCIUTO CRUDO',
+            '33',
+            'sos pizza, prosciutto crudo, mozzarella, rucola, roșii, parmezan'
+          )
+          +menu-entry('CHORIZZO',
+            '31',
+            'sos pizza, salam chorizzo, mozzarella'
+          )
+          +menu-entry('CU TON',
+            '31',
+            'sos pizza, ceapă, mozzarella, ton, porumb'
+          )
+          +menu-entry('MARGHERITA',
+            '26',
+            'sos pizza, mozzarella'
+          )
+          +menu-entry('CARBONARA',
+            '31',
+            'sos alb, bacon, ou, mozzarella'
+          )
+          +menu-entry('QUATTRO STAGIONE',
+            '31',
+            'sos pizza, șuncă, ton, măsline, ciuperci, mozzarella'
+          )
+          +menu-entry('SANDWICH CU PUI',
+            '34',
+            'sos pizza, carne pui, mozzarella, măsline, ciuperci',
+            'imgs/pizza-s.jpg'
+          )
+          +menu-entry('MORTADELLA',
+            '34',
+            'sos pizza, cremă brânză, mozzarella, mortadella, rucola, parmezan'
+          )
+          +menu-entry('CREMOSA',
+            '33',
+            'sos alb, mozzarella, cremă brânză, șuncă'
+          )
+          //- +menu-entry('CALZONE 30/50cm',
+          //-   'xx',
+          //-   'mozzarella, șuncă, sos roșii'
+          //- )
+          //- +menu-entry('CAPRICIOSA 30/50cm',
+          //-   'xx',
+          //-   'sos roșii, bacon, mozzarella, ciuperci, măsline'
+          //- )
+          +menu-entry('VEGETALA 30cm',
+            '25',
+            'sos pizza, ciuperci, măsline, ardei, porumb, ceapă'
+          )
+          +menu-entry('FOCACCIA',
+            '12',
+            'simplă (fără ingrediente menționate)'
+          )
+          +menu-entry('FOCACCIA CU PARMESAN',
+            '13',
+            'focaccia cu parmezan (fără alte ingrediente menționate)'
+          )
       section#shaormas
-        h2 Shaorma
+        .heading-wrapper
+          h2 Shaorma
         +menu-entry('Shaorma pui (mica 390gr./mare 590gr.)', 
           '24/27', 
           'lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
         )
         +menu-entry('Shaorma pink pui (mica 390gr./mare 590gr.)', 
           '26/29', 
-          'lipie pink, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
+          'lipie pink, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza',
+          'imgs/pink-shaorma.jpeg'
         )
         +menu-entry('Shaorma pui farfurie (550gr.)', 
           '30', 
@@ -165,7 +192,8 @@ html(lang="en")
           'lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza'
         )
       section#burgers
-        h2 Burgeri
+        .heading-wrapper
+          h2 Burgeri
         +menu-entry('Hamburger (porc/pui) 390gr.', 
           '20',
           'chiflă, carne porc/pui, salată varză, cartofi prăjiți, ketchup, maioneză'
@@ -197,19 +225,22 @@ html(lang="en")
           '9'
         )
       section#side-dishes
-        h2 Garnituri
+        .heading-wrapper
+          h2 Garnituri
         +menu-entry('Chifla', '2')
         +menu-entry('Cartofi prajiti', '7')
         +menu-entry('Salata castraveti', '5')
         +menu-entry('Salata varza', '5')
       section#sauces
-        h2 Sosuri
+        .heading-wrapper
+          h2 Sosuri
         +menu-entry('Maioneza', '3')
         +menu-entry('Ketchup', '3')
         +menu-entry('Sos usturoi', '3')
         +menu-entry('Mustar', '3')
       section#drinks
-        h2 Bauturi
+        .heading-wrapper
+          h2 Bauturi
         +menu-entry('Ayran', '5')
         +menu-entry('Suc 0.33L', '8')
         +menu-entry('Suc 0.5L', '10')

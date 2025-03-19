@@ -30,3 +30,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.padd-t-1 {
+  padding-top: 1rem !important;
+}
+
+.padd-b-1 {
+  padding-bottom: 1rem !important;
+}
+
+.padd-l-0 {
+  padding-left: 0 !important;
+}
+
+.extra-padding {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.d-none {
+  display: none !important;
+}

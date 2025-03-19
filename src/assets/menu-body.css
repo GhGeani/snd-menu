@@ -12,12 +12,58 @@ main.menu-body > section {
 }
 
 main.menu-body > section:first-child {
-  padding-top: .5rem;
+  padding-top: 1rem;
 }
 
-main.menu-body > section > h2 {
+main.menu-body > section:last-child {
+  padding-bottom: 2rem;
+}
+
+main.menu-body > section > .heading-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 1rem;
   color: var(--color-black);
+  font-size: large;
+}
+
+main.menu-body > section > .heading-wrapper label {
+  color: var(--color-white);
+  font-weight: bold;
+  margin-left: 1rem;
+  padding: .3rem 1rem;
+  background-color: var(--color-black);
+  font-size: medium;
+  font-weight: 400;
+  border: .1rem solid var(--color-black);
+  transition: background-color .2s ease-in-out;
+  font-size: large;
+  font-weight: 600;
+}
+
+main.menu-body > section > .heading-wrapper input:checked + label {
+  background-color: var(--color-orange);
+  border: .2rem solid var(--color-white);
+  color: var(--color-black);
+}
+
+main.menu-body > section > .pizza-30cm-section,
+main.menu-body > section > .pizza-50cm-section {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity .5s ease, height .5s ease;
+}
+
+main.menu-body > section:has(#pizza-size-30:checked) .pizza-30cm-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body > section:has(#pizza-size-50:checked) .pizza-50cm-section {
+  opacity: 1;
+  height: auto;
 }
 
 main.menu-body .menu-item {
@@ -25,8 +71,14 @@ main.menu-body .menu-item {
   border-bottom: .1rem solid var(--color-yellow);
 }
 
+.menu-item .img-responsive {
+  width: 10rem;
+  height: auto;
+}
+
 main.menu-body .menu-item .arrow {
-  fill: var(--color-orange)
+  fill: var(--color-orange);
+  flex-shrink: 0;
 }
 
 main.menu-body .menu-item > summary {
@@ -38,7 +90,7 @@ main.menu-body .menu-item > summary {
 
 main.menu-body .menu-item > summary > .name-wrapper {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: .5rem;
 }
 
