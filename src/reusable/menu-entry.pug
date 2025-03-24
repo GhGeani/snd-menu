@@ -9,7 +9,7 @@ mixin menu-entry(name, price, description, imgSrc)
           if imgSrc
             p.price.padd-t-1.padd-l-0 #{price} LEI
       if imgSrc
-        img.img-responsive(src=imgSrc alt=imgSrc title=imgSrc)
+        img.img-responsive(src=imgSrc alt=imgSrc title=imgSrc loading="lazy")
       if !imgSrc
         p.price #{price} LEI
     if description
