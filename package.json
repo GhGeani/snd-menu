@@ -7,12 +7,13 @@
     "build:assets": "esbuild src/assets/script.js src/assets/styles.css  --bundle --outdir=dist --minify",
     "watch:assets": "esbuild src/assets/script.js src/assets/styles.css  --bundle --outdir=dist --watch",
     "copy:images": "copyfiles -u 1 src/imgs/* dist --soft",
+    "copy:logo": "copyfiles -u 2 src/assets/favicon.svg dist",
     "watch:images": "npm run copy:images && chokidar 'src/imgs/**/*' -c 'npm run copy:images'",
     "build:pug": "pug src/index.pug --out dist",
     "watch:pug": "pug src/index.pug --out dist --watch",
     "clean:dist": "rm -rf dist",
-  "dev:server": "npm-run-all clean:dist --parallel server \"watch:pug\" \"watch:assets\" \"watch:images\"",
-    "build": "npm-run-all clean:dist build:pug build:assets copy:images"
+    "dev:server": "npm-run-all clean:dist copy:logo --parallel server \"watch:pug\" \"watch:assets\" \"watch:images\"",
+    "build": "npm-run-all clean:dist copy:logo build:pug build:assets copy:images"
   },
   "keywords": [],
   "author": "",
