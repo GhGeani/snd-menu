@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', loadQOLFunctions);
 
-
 /**
  * Initializes and loads Quality of Life (QOL) functions for the application.
  * This function sets up the following functionalities:
@@ -9,11 +8,20 @@ document.addEventListener('DOMContentLoaded', loadQOLFunctions);
  * - Moving the active menu item to the left
  */
 function loadQOLFunctions() {
+  selectFirstSection();
   // redirectToSelectedItem();
   handleMenuNavigation();
   handleScrollNavigation();
 }
 
+
+/**
+ * Selects the first menu item in the menu header and adds the 'active' class to it.
+ */
+function selectFirstSection() {
+  const menuItems = document.querySelectorAll('.menu-header > ul > li');
+  menuItems[0].classList.add('active');
+}
 
 function redirectToSelectedItem() {
   if (!location.hash) {
