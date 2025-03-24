@@ -21,24 +21,34 @@ main.menu-body > section:last-child {
 
 main.menu-body > section > .heading-wrapper {
   display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
   color: var(--color-black);
   font-size: large;
 }
+main.menu-body > section > .heading-wrapper > .select-type-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: flex-end;
+  gap: .2rem;
+}
 
 main.menu-body > section > .heading-wrapper label {
+  display: flex;
+  align-items: center;
   color: var(--color-white);
-  font-weight: bold;
-  margin-left: 1rem;
-  padding: .3rem 1rem;
   background-color: var(--color-black);
+  border: .1rem solid var(--color-black);
+  border-radius: .7rem;
+  font-weight: bold;
+  padding: .4rem 1rem;
   font-size: medium;
   font-weight: 400;
-  border: .1rem solid var(--color-black);
   transition: background-color .2s ease-in-out;
-  font-size: large;
   font-weight: 600;
 }
 
@@ -49,7 +59,13 @@ main.menu-body > section > .heading-wrapper input:checked + label {
 }
 
 main.menu-body > section > .pizza-30cm-section,
-main.menu-body > section > .pizza-50cm-section {
+main.menu-body > section > .pizza-50cm-section,
+main.menu-body > section > .shaorma-small-section,
+main.menu-body > section > .shaorma-large-section,
+main.menu-body > section > .shaorma-plate-section,
+main.menu-body > section > .burger-chicken-section,
+main.menu-body > section > .burger-pork-section,
+main.menu-body > section > .burger-beef-section {
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -62,6 +78,36 @@ main.menu-body > section:has(#pizza-size-30:checked) .pizza-30cm-section {
 }
 
 main.menu-body > section:has(#pizza-size-50:checked) .pizza-50cm-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body > section:has(#shaorma-small:checked) .shaorma-small-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body > section:has(#shaorma-large:checked) .shaorma-large-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body > section:has(#shaorma-plate:checked) .shaorma-plate-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body >  section:has(#burger-chicken:checked) .burger-chicken-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body >  section:has(#burger-pork:checked) .burger-pork-section {
+  opacity: 1;
+  height: auto;
+}
+
+main.menu-body >  section:has(#burger-beef:checked) .burger-beef-section {
   opacity: 1;
   height: auto;
 }
