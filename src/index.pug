@@ -20,6 +20,7 @@ html(lang="en")
         +menu-header('#shaormas', 'Shaorma')
         +menu-header('#burgers', 'Burgeri')
         +menu-header('#side-dishes', 'Garnituri')
+        +menu-header('#desserts', 'Deserturi')
         +menu-header('#sauces', 'Sosuri')
         +menu-header('#drinks', 'Bauturi')
     main.menu-body
@@ -295,7 +296,6 @@ html(lang="en")
             'lipie kebab, sos usturoi, carne vită, salată verde, ceapă roșie, roșii',
             'imgs/donner-kebab.png'
           )
-
       section#side-dishes
         .heading-wrapper
           h2 Garnituri
@@ -306,6 +306,19 @@ html(lang="en")
         )
         +menu-entry('Salata castraveti', '5')
         +menu-entry('Salata varza', '5')
+      section#desserts
+        .heading-wrapper
+          h2 Deserturi
+        +menu-entry('Clatite 2buc/200gr', 
+          '10',
+          '',
+          'imgs/pancakes.jpeg'
+        )
+        +menu-entry('Papanasi 150gr', 
+          '11',
+          '',
+          'imgs/donuts.jpeg'
+        )
       section#sauces
         .heading-wrapper
           h2 Sosuri
