@@ -9,8 +9,8 @@
     "copy:images": "copyfiles -u 1 src/imgs/* dist --soft",
     "copy:logo": "copyfiles -u 2 src/assets/favicon.svg dist",
     "watch:images": "npm run copy:images && chokidar 'src/imgs/**/*' -c 'npm run copy:images'",
-    "build:pug": "pug src/index.pug --out dist --obj src/assets/menu-data.json",
-    "watch:pug": "pug src/index.pug --out dist --obj src/assets/menu-data.json --watch",
+    "build:pug": "pug src/index.pug --out dist --obj menu-data.json",
+    "watch:pug": "pug src/index.pug --out dist --obj menu-data.json --watch",
     "clean:dist": "rm -rf dist",
     "dev:server": "npm-run-all clean:dist copy:logo --parallel server \"watch:pug\" \"watch:assets\" \"watch:images\"",
     "build": "npm-run-all clean:dist copy:logo build:pug build:assets copy:images"
