@@ -15,6 +15,10 @@ main.menu-body > section:first-child {
   padding-top: 1rem;
 }
 
+main.menu-body > section:first-child > .heading-wrapper {
+  display: none;
+}
+
 main.menu-body > section:last-child {
   padding-bottom: 2rem;
 }
