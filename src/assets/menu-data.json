@@ -1,0 +1,428 @@
+{
+  "Meniu": {
+    "Platouri": [
+      {
+        "name": "Platou TRADITIONAL (pentru 4 persoane)",
+        "price": "190",
+        "description": "pulpe dezosate, ficăței de pui, ciolan porc, cârnați, murături, sos usturoi, muștar, focaccia, ceapa roșie, cartofi wedges",
+        "image": "imgs/t-plate.png"
+      },
+      {
+        "name": "Platou FRUCTE DE MARE (pentru 2 persoane - 800gr.)",
+        "price": "79",
+        "description": "creveti, midii, calamar, rondele ceapa, buleți brânză picantă,  buleți cașcaval,  cartofi wedges,  lamaie",
+        "image": "imgs/sea-food-plate.png"
+      }
+    ],
+    "Meniuri": [
+      {
+        "name": "Meniu Creveti Grill 450gr.",
+        "price": "53",
+        "description": "creveti, cartofi wedges, sos de usturoi, lămâie, bautura racoritoare/apa",
+        "image": "imgs/shrimps.png"
+      },
+      {
+        "name": "Meniu ARIPIOARE CRISPY 450gr.",
+        "price": "31",
+        "description": "aripioare pui picante, cartofi prajiti, chifla, sos de usturoi, ketchup, bautura racoritoare/apa"
+      },
+      {
+        "name": "Meniu CARNACIOARI 400gr.",
+        "price": "26",
+        "description": "3 carnaciori, cartofi prajiti, chifla, mustar, salata varza, bautura racoritoare/apa"
+      },
+      {
+        "name": "Meniu CIOLAN DE PORC 600gr.",
+        "price": "61",
+        "description": "ciolan de porc, cartofi aurii, sos usturoi, salata varsa, chifla, bautura racoritoare 0.33l sau apa plata 0.5l"
+      },
+      {
+        "name": "Meniu CROCHETE DE PUI 450gr.",
+        "price": "38",
+        "description": "5 crochete de pui, cartofi prajiti, chifla, sos de usturoi, bautura racoritoare 0.33l sau apa 0.5l"
+      },
+      {
+        "name": "Meniu FILE PIEPT PUI 450gr.",
+        "price": "34",
+        "description": "file din piept de pui, cartofi prajiti, salata varza, castraveti murati, ceapa, sos tzatziki, chifla, bautura racoritoare 0.33l sau apa 0.5l"
+      },
+      {
+        "name": "Meniu MIXT S&D 450gr.",
+        "price": "34",
+        "description": "2 aripioare de pui crispy picante, 2 crochete de pui, 4 mini chiftele, cartofi prajiti, chifla, sos de usturoi, ketchup, bautura racoritoare 0.33l sau apa 0.5l"
+      },
+      {
+        "name": "Meniu SNITEL PUI 450gr.",
+        "price": "33",
+        "description": "snitel de pui, cartofi prajiti, salata varza, castraveti murati, ceapa, sos tzatziki, chifla, bautura racoritoare 0.33l sau apa 0.5l"
+      },
+      {
+        "name": "Meniu MICI 400gr.",
+        "price": "25",
+        "description": "3 mici, cartofi prajiti, chifla, mustar, salata varza, bautura racoritoare/apa"
+      },
+      {
+        "name": "Meniu NUGGETS 400gr.",
+        "price": "25",
+        "description": "8 bucati nuggets de pui, cartofi prajiti, sos usturoi, bautura racoritoare/apa"
+      },
+      {
+        "name": "Meniu COPII 300gr.",
+        "price": "21",
+        "description": "5 bucati nuggets de pui, ketchup, bautura racoritoare/apa"
+      }
+    ],
+    "Pizza": {
+      "50cm": [
+        {
+          "name": "CASEI",
+          "price": "53",
+          "description": "sos pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei, porumb",
+          "image": "imgs/pizza-casei.png"
+        },
+        {
+          "name": "TARANEASCA",
+          "price": "53",
+          "description": "sos pizza, cârnați, ceapă, mozzarella, bacon, ardei, porumb",
+          "image": "imgs/pizza-taraneasca.png"
+        },
+        {
+          "name": "KEBAB",
+          "price": "60",
+          "description": "sos pizza, cartofi prăjiți, carne pui, mozzarella, roșii, rucola",
+          "image": "imgs/pizza-kebab.png"
+        }
+      ],
+      "30cm": [
+        {
+          "name": "CASEI",
+          "price": "32",
+          "description": "sos pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei, porumb",
+          "image": "imgs/pizza-casei.png"
+        },
+        {
+          "name": "TARANEASCA",
+          "price": "32",
+          "description": "sos pizza, cârnați, ceapă, mozzarella, bacon, ardei, porumb",
+          "image": "imgs/pizza-taraneasca.png"
+        },
+        {
+          "name": "KEBAB",
+          "price": "35",
+          "description": "sos pizza, cartofi prăjiți, carne pui, mozzarella, roșii, rucola",
+          "image": "imgs/pizza-kebab.png"
+        },
+        {
+          "name": "PROSCIUTO CRUDO",
+          "price": "33",
+          "description": "sos pizza, prosciutto crudo, mozzarella, rucola, roșii, parmezan",
+          "image": "imgs/pizza-prosciutto-crudo.png"
+        },
+        {
+          "name": "CHORIZZO",
+          "price": "31",
+          "description": "sos pizza, salam chorizzo, mozzarella",
+          "image": "imgs/pizza-chorizzo.png"
+        },
+        {
+          "name": "CU TON",
+          "price": "31",
+          "description": "sos pizza, ceapă, mozzarella, ton, porumb",
+          "image": "imgs/pizza-ton.png"
+        },
+        {
+          "name": "MARGHERITA",
+          "price": "26",
+          "description": "sos pizza, mozzarella"
+        },
+        {
+          "name": "CARBONARA",
+          "price": "31",
+          "description": "sos alb, bacon, ou, mozzarella"
+        },
+        {
+          "name": "QUATTRO STAGIONE",
+          "price": "31",
+          "description": "sos pizza, șuncă, ton, măsline, ciuperci, mozzarella"
+        },
+        {
+          "name": "SANDWICH CU PUI",
+          "price": "34",
+          "description": "sos pizza, carne pui, mozzarella, măsline, ciuperci",
+          "image": "imgs/pizza-s.png"
+        },
+        {
+          "name": "MORTADELLA",
+          "price": "34",
+          "description": "sos pizza, cremă brânză, mozzarella, mortadella, rucola, parmezan"
+        },
+        {
+          "name": "CREMOSA",
+          "price": "33",
+          "description": "sos alb, mozzarella, cremă brânză, șuncă"
+        },
+        {
+          "name": "VEGETALA 30cm",
+          "price": "25",
+          "description": "sos pizza, ciuperci, măsline, ardei, porumb, ceapă"
+        },
+        {
+          "name": "FOCACCIA",
+          "price": "12",
+          "description": "simplă (fără ingrediente menționate)"
+        },
+        {
+          "name": "FOCACCIA CU PARMESAN",
+          "price": "13",
+          "description": "focaccia cu parmezan (fără alte ingrediente menționate)"
+        }
+      ]
+    },
+    "Shaorma": {
+      "Mica": [
+        {
+          "name": "Shaorma pui 390gr.",
+          "price": "24",
+          "description": "lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        },
+        {
+          "name": "Shaorma pink pui 390gr.",
+          "price": "26",
+          "description": "lipie pink, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza",
+          "image": "imgs/shaorma-pink.png"
+        },
+        {
+          "name": "Shaorma vita 390gr.",
+          "price": "30",
+          "description": "lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        },
+        {
+          "name": "Shaorma pink vita 390gr.",
+          "price": "30",
+          "description": "lipie pink, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        }
+      ],
+      "Mare": [
+        {
+          "name": "Shaorma pui 590gr.",
+          "price": "27",
+          "description": "lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        },
+        {
+          "name": "Shaorma pink pui 590gr.",
+          "price": "29",
+          "description": "lipie pink, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza",
+          "image": "imgs/shaorma-pink.png"
+        },
+        {
+          "name": "Shaorma vita 590gr.",
+          "price": "33",
+          "description": "lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        },
+        {
+          "name": "Shaorma pink vita 590gr.",
+          "price": "33",
+          "description": "lipie pink, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        }
+      ],
+      "Farfurie": [
+        {
+          "name": "Shaorma pui farfurie 550gr.",
+          "price": "30",
+          "description": "lipie, carne pui, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        },
+        {
+          "name": "Shaorma vita farfurie 550gr.",
+          "price": "35",
+          "description": "lipie, carne vita, cartofi prajiti, castraveti murati, ceapa, sos usturoi, ketchup, maioneza"
+        }
+      ]
+    },
+    "Burgeri": {
+      "Pui": [
+        {
+          "name": "Hamburger pui 390gr.",
+          "price": "20",
+          "description": "chiflă, carne pui, salată varză, cartofi prăjiți, ketchup, maioneză"
+        },
+        {
+          "name": "Hamburger cu ou pui 440gr.",
+          "price": "22",
+          "description": "chiflă, carne pui, salată varză, cartofi prăjiți, ou, ketchup, maioneză"
+        },
+        {
+          "name": "Cheeseburger pui 420gr.",
+          "price": "22",
+          "description": "chiflă, carne pui, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză, ketchup"
+        },
+        {
+          "name": "Bagheta cu pui 350gr.",
+          "price": "19",
+          "description": "baghetă, piept de pui, roșii, salată verde, castraveți"
+        }
+      ],
+      "Porc": [
+        {
+          "name": "Hamburger porc 390gr.",
+          "price": "20",
+          "description": "chiflă, carne porc, salată varză, cartofi prăjiți, ketchup, maioneză"
+        },
+        {
+          "name": "Hamburger cu ou porc 440gr.",
+          "price": "22",
+          "description": "chiflă, carne porc, salată varză, cartofi prăjiți, ou, ketchup, maioneză"
+        },
+        {
+          "name": "Cheeseburger porc 420gr.",
+          "price": "22",
+          "description": "chiflă, carne porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză, ketchup"
+        },
+        {
+          "name": "Sandwich cald 250gr.",
+          "price": "16",
+          "description": "șuncă, cașcaval, roșii, castraveți"
+        }
+      ],
+      "Vită": [
+        {
+          "name": "Kebab pui 310gr.",
+          "price": "23",
+          "description": "pită, carne vită, cartofi prăjiți, castraveți murați, ceapă, roșii, salată varză, sos usturoi"
+        },
+        {
+          "name": "Kebab vită 310gr.",
+          "price": "25",
+          "description": "pită, carne vită, cartofi prăjiți, castraveți murați, ceapă, roșii, salată varză, sos usturoi"
+        },
+        {
+          "name": "Donner Kebab vită",
+          "price": "33",
+          "description": "lipie kebab, sos usturoi, carne vită, salată verde, ceapă roșie, roșii",
+          "image": "imgs/donner-kebab.png"
+        }
+      ]
+    },
+    "Garnituri": [
+      {
+        "name": "Chifla",
+        "price": "2"
+      },
+      {
+        "name": "Cartofi prajiti",
+        "price": "7"
+      },
+      {
+        "name": "HOT DOG",
+        "price": "9"
+      },
+      {
+        "name": "Salata castraveti",
+        "price": "5"
+      },
+      {
+        "name": "Salata varza",
+        "price": "5"
+      }
+    ],
+    "Deserturi": [
+      {
+        "name": "Clatite 2buc/200gr",
+        "price": "10",
+        "image": "imgs/pancakes.jpeg"
+      },
+      {
+        "name": "Papanasi 150gr",
+        "price": "11",
+        "image": "imgs/donuts.jpeg"
+      }
+    ],
+    "Sosuri": [
+      {
+        "name": "Maioneza",
+        "price": "3"
+      },
+      {
+        "name": "Ketchup",
+        "price": "3"
+      },
+      {
+        "name": "Sos usturoi",
+        "price": "3"
+      },
+      {
+        "name": "Mustar",
+        "price": "3"
+      }
+    ],
+    "Bauturi": [
+      {
+        "name": "Ayran",
+        "price": "5"
+      },
+      {
+        "name": "Suc 0.33L",
+        "price": "8"
+      },
+      {
+        "name": "Suc 0.5L",
+        "price": "10"
+      },
+      {
+        "name": "Apa 0.5L",
+        "price": "8"
+      },
+      {
+        "name": "Cafea",
+        "price": "5"
+      },
+      {
+        "name": "Hell",
+        "price": "6"
+      },
+      {
+        "name": "Burn",
+        "price": "10"
+      },
+      {
+        "name": "Red Bull 0.25L",
+        "price": "12"
+      },
+      {
+        "name": "Monster",
+        "price": "12"
+      },
+      {
+        "name": "Bere pahar 400ml",
+        "price": "9"
+      },
+      {
+        "name": "Bere fara alcool 500ml",
+        "price": "9"
+      },
+      {
+        "name": "Bere Tuborg 330ml",
+        "price": "9"
+      },
+      {
+        "name": "Bere Tuborg 500ml",
+        "price": "10"
+      },
+      {
+        "name": "Bere Heineken 330ml",
+        "price": "11"
+      },
+      {
+        "name": "Bere Holsten Radler 330ml",
+        "price": "10"
+      },
+      {
+        "name": "Bere Carlsberg 330ml",
+        "price": "11"
+      },
+      {
+        "name": "Bere Carlsberg 500ml",
+        "price": "12"
+      }
+    ]
+  }
+}
