@@ -4,13 +4,13 @@
       {
         "name": "Platou tradițional (pentru 4 persoane)",
         "price": "190",
-        "description": "pulpe dezosate, ficăței de pui, ciolan de porc, cârnați, murături, sos de usturoi, muștar, focaccia, ceapă roșie și cartofi wedges",
+        "description": "pulpe dezosate, ficăței de pui, ciolan de porc, cârnăciori, murături, sos de usturoi, muștar, focaccia, ceapă roșie și cartofi wedges",
         "image": "imgs/t-plate.png"
       },
       {
         "name": "Platou fructe de mare (pentru 2 persoane - aprox. 800g)",
         "price": "79",
-        "description": "creveți, midii, calamar, ceapă, buleți de brânză, buleți de cașcaval, cartofi wedges și lămâie",
+        "description": "creveți, midii, calamar, ceapă, bulete de brânză picantă, bulete de cașcaval, cartofi wedges și lămâie",
         "image": "imgs/sea-food-plate.png"
       }
     ],
@@ -28,7 +28,7 @@
       {
         "name": "Meniu cârnați (aprox. 400g)",
         "price": "26",
-        "description": "3 cârnați, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
+        "description": "3 cârnăciori, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
       },
       {
         "name": "Meniu ciolan de porc (aprox. 600g)",
@@ -82,7 +82,7 @@
         {
           "name": "Pizza Țărănească",
           "price": "53",
-          "description": "sos de pizza, cârnați, ceapă, mozzarella, bacon, ardei și porumb",
+          "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb",
           "image": "imgs/pizza-taraneasca.png"
         },
         {
@@ -102,7 +102,7 @@
         {
           "name": "Pizza Țărănească",
           "price": "32",
-          "description": "sos de pizza, cârnați, ceapă, mozzarella, bacon, ardei și porumb",
+          "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb",
           "image": "imgs/pizza-taraneasca.png"
         },
         {
