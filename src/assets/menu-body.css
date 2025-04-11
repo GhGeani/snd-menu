@@ -160,6 +160,10 @@ main.menu-body .menu-item::details-content {
   background-color: var(--color-grey);
 }
 
+.menu-item > p {
+  background-color: var(--color-grey);
+}
+
 main.menu-body .menu-item[open]::details-content {
 	block-size: auto;
 	block-size: calc-size(auto, size);
