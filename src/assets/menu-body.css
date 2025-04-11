@@ -127,6 +127,7 @@ main.menu-body .menu-item h4 {
 }
 
 main.menu-body .menu-item > p  {
+  background-color: var(--color-grey);
   padding: 1rem 2rem 1rem;
   display: block;
 }
