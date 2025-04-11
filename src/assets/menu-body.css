@@ -15,6 +15,10 @@ main.menu-body > section:first-child {
   padding-top: 1rem;
 }
 
+main.menu-body > section:first-child > .heading-wrapper {
+  display: none;
+}
+
 main.menu-body > section:last-child {
   padding-bottom: 2rem;
 }
@@ -58,56 +62,29 @@ main.menu-body > section > .heading-wrapper input:checked + label {
   color: var(--color-black);
 }
 
-main.menu-body > section > .pizza-30cm-section,
-main.menu-body > section > .pizza-50cm-section,
-main.menu-body > section > .shaorma-small-section,
-main.menu-body > section > .shaorma-large-section,
-main.menu-body > section > .shaorma-plate-section,
-main.menu-body > section > .burger-chicken-section,
-main.menu-body > section > .burger-pork-section,
-main.menu-body > section > .burger-beef-section {
+main.menu-body > section > section {
   opacity: 0;
   height: 0;
   overflow: hidden;
   transition: opacity .5s ease, height .5s ease;
 }
 
-main.menu-body > section:has(#pizza-size-30:checked) .pizza-30cm-section {
+main.menu-body > section:has(#p-50cm:checked) #p-50cm,
+main.menu-body > section:has(#p-30cm:checked) #p-30cm {
   opacity: 1;
   height: auto;
 }
 
-main.menu-body > section:has(#pizza-size-50:checked) .pizza-50cm-section {
+main.menu-body > section:has(#p-Mica:checked) #p-Mica,
+main.menu-body > section:has(#p-Mare:checked) #p-Mare,
+main.menu-body > section:has(#p-Farfurie:checked) #p-Farfurie {
   opacity: 1;
   height: auto;
 }
 
-main.menu-body > section:has(#shaorma-small:checked) .shaorma-small-section {
-  opacity: 1;
-  height: auto;
-}
-
-main.menu-body > section:has(#shaorma-large:checked) .shaorma-large-section {
-  opacity: 1;
-  height: auto;
-}
-
-main.menu-body > section:has(#shaorma-plate:checked) .shaorma-plate-section {
-  opacity: 1;
-  height: auto;
-}
-
-main.menu-body >  section:has(#burger-chicken:checked) .burger-chicken-section {
-  opacity: 1;
-  height: auto;
-}
-
-main.menu-body >  section:has(#burger-pork:checked) .burger-pork-section {
-  opacity: 1;
-  height: auto;
-}
-
-main.menu-body >  section:has(#burger-beef:checked) .burger-beef-section {
+main.menu-body >  section:has(#p-Pui:checked) #p-Pui,
+main.menu-body >  section:has(#p-Porc:checked) #p-Porc,
+main.menu-body >  section:has(#p-Vită:checked) #p-Vită {
   opacity: 1;
   height: auto;
 }
