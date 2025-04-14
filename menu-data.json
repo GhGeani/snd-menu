@@ -248,6 +248,16 @@
     "Burgeri": {
       "Pui": [
         {
+          "name": "Kebab de pui (aprox. 310g)",
+          "price": "23",
+          "description": "pită, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+        },
+        {
+          "name": "Donner kebab de pui (aprox. 310g)",
+          "price": "30",
+          "description": "lipie kebab, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+        },
+        {
           "name": "Hamburger de pui (aprox. 390g)",
           "price": "20",
           "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ketchup și maioneză"
@@ -291,11 +301,6 @@
         }
       ],
       "Vită": [
-        {
-          "name": "Kebab de pui (aprox. 310g)",
-          "price": "23",
-          "description": "pită, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
-        },
         {
           "name": "Kebab de vită (aprox. 310g)",
           "price": "25",
