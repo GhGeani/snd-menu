@@ -26,7 +26,7 @@
         "description": "aripioare de pui, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere"
       },
       {
-        "name": "Meniu cârnați (aprox. 400g)",
+        "name": "Meniu cârnăciori (aprox. 400g)",
         "price": "26",
         "description": "3 cârnăciori, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
       },
@@ -69,6 +69,14 @@
         "name": "Meniu copii (aprox. 300g)",
         "price": "21",
         "description": "5 nuggets de pui, ketchup și băutură 👶"
+      },
+      {
+        "name": "Mici la bucată (80g)",
+        "price": "6"
+      },
+      {
+        "name": "Cârnăciori la bucată (50g)",
+        "price": "6"
       }
     ],
     "Pizza": {
@@ -258,6 +266,11 @@
           "name": "Baghetă cu pui (aprox. 350g)",
           "price": "19",
           "description": "baghetă, piept de pui, roșii, salată verde și castraveți"
+        },
+        {
+          "name": "Sandwich cald (aprox. 250g)",
+          "price": "16",
+          "description": "șuncă, cașcaval, roșii și castraveți"
         }
       ],
       "Porc": [
@@ -275,11 +288,6 @@
           "name": "Cheeseburger de porc (aprox. 420g)",
           "price": "22",
           "description": "chiflă, carne de porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup"
-        },
-        {
-          "name": "Sandwich cald (aprox. 250g)",
-          "price": "16",
-          "description": "șuncă, cașcaval, roșii și castraveți"
         }
       ],
       "Vită": [
