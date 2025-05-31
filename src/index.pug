@@ -38,6 +38,7 @@ html(lang="en")
               )
             if Array.isArray(product)
               section(id=`p-${index}`)
+                h4.sub-cat-header= `${mainCat} ${index}`
                 each subP in product
                   +menu-entry(
                     subP.name,

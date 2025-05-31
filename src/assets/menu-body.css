@@ -25,7 +25,7 @@ main.menu-body > section:last-child {
 
 main.menu-body > section > .heading-wrapper {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
@@ -33,11 +33,19 @@ main.menu-body > section > .heading-wrapper {
   color: var(--color-black);
   font-size: large;
 }
+
+main.menu-body section > .sub-cat-header {
+  background: linear-gradient(to right, var(--color-orange), var(--color-yellow));
+  color: var(--color-grey);
+  padding: 1rem;
+  letter-spacing: .1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 main.menu-body > section > .heading-wrapper > .select-type-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   gap: .2rem;
 }
 
@@ -90,7 +98,7 @@ main.menu-body >  section:has(#p-Vită:checked) #p-Vită {
 }
 
 main.menu-body .menu-item {
-  background-color: var(--color-black);
+  background: linear-gradient(to right, var(--color-black), var(--color-grey));
   border-bottom: .1rem solid var(--color-yellow);
 }
 

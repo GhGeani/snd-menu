@@ -13,7 +13,8 @@
     "watch:pug": "pug src/index.pug --out dist --obj menu-data.json --watch",
     "clean:dist": "rm -rf dist",
     "dev:server": "npm-run-all clean:dist copy:logo --parallel server \"watch:pug\" \"watch:assets\" \"watch:images\"",
-    "build": "npm-run-all clean:dist copy:logo build:pug build:assets copy:images"
+    "build": "npm-run-all clean:dist copy:logo build:pug build:assets copy:images",
+    "menu-to-pdf": "node ./scripts/menu-to-pdf.js"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "esbuild": "0.25.1",
     "live-server": "^1.2.2",
     "npm-run-all": "^4.1.5",
+    "playwright": "^1.51.1",
     "pug": "^3.0.3",
     "pug-cli": "^1.0.0-alpha6"
   }
