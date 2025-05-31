@@ -30,9 +30,14 @@ const output = path.resolve(__dirname, '../menu.pdf');
       .select-type-wrapper {
         display: none !important;
       }
-      .menu-item, .menu-body > section {
+      .menu-body section, .menu-item {
         break-inside: avoid;
         page-break-inside: avoid;
+      }
+      .menu-body section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
     `
   });
@@ -43,8 +48,9 @@ const output = path.resolve(__dirname, '../menu.pdf');
     format: 'A4',
     printBackground: true,
     preferCSSPageSize: true,
-    scale: 1.5,
+    scale: 1.1,
   });
 
   browser.close();
+  console.log('Done, check: ' + output)
 })();
