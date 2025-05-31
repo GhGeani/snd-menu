@@ -24,6 +24,10 @@
   user-select: none;
 }
 
+body {
+  background-color: var(--color-black);
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -37,6 +41,14 @@
 
 .padd-b-1 {
   padding-bottom: 1rem !important;
+}
+
+.margin-t-1 {
+  margin-top: 1rem !important;
+}
+
+.margin-b-1 {
+  margin-bottom: 1rem !important;
 }
 
 .padd-l-0 {
