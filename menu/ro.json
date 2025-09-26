@@ -12,6 +12,12 @@
         "price": "81",
         "description": "creveți, midii, calamar, ceapă, bulete de brânză picantă, bulete de cașcaval, cartofi wedges și lămâie",
         "image": "imgs/sea-food-plate.png"
+      },
+      {
+        "name": "Platou rotisat (pentru 4 persoane)",
+        "price": "199",
+        "description": "jumătate de pui rotișat (1 buc), pulpe de pui (2 buc), cașcaval pane (3 buc), ceapă pane (10 buc), coaste de porc (7 buc), murături asortate, sos tzatziki, cartofi (500g), focaccia și salată verde",
+        "image": "imgs/roasted-plate.webp"
       }
     ],
     "Meniuri": [
@@ -69,6 +75,11 @@
         "name": "Meniu copii (aprox. 300g)",
         "price": "22",
         "description": "5 nuggets de pui, ketchup și băutură 👶"
+      },
+      {
+        "name": "Meniu rotisat (aprox. 500g)",
+        "price": "29",
+        "description": "pulpă de pui rotișat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)"
       },
       {
         "name": "Mici la bucată (80g)",
@@ -298,6 +309,16 @@
           "name": "Cheeseburger de porc (aprox. 420g)",
           "price": "23",
           "description": "chiflă, carne de porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup"
+        },
+        {
+          "name": "Plescăviță (aprox. 400g)",
+          "price": "25",
+          "description": "plescăviță, cartofi prăjiți, sos tzatziki, salată de varză și chiflă"
+        },
+        {
+          "name": "Burger sârbesc (aprox. 400g)",
+          "price": "25",
+          "description": "plescăviță, chiflă, roșii, castraveți, salată verde și cartofi prăjiți"
         }
       ],
       "Vită": [
