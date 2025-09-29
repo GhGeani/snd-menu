@@ -11,10 +11,6 @@ main.menu-body > section {
   padding: .1rem
 }
 
-main.menu-body > section:first-child {
-  padding-top: 1rem;
-}
-
 main.menu-body > section:first-child > .heading-wrapper {
   display: none;
 }
@@ -29,7 +25,9 @@ main.menu-body > section > .heading-wrapper {
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   color: var(--color-black);
   font-size: large;
 }
