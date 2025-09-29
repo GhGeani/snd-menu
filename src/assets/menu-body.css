@@ -21,50 +21,45 @@ main.menu-body > section:last-child {
 
 main.menu-body > section > .heading-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
-  justify-content: space-between;
+  gap: .5rem;
   padding-left: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
   color: var(--color-black);
   font-size: large;
+  padding-bottom: .2rem;
 }
 
 main.menu-body section > .sub-cat-header {
   background: linear-gradient(to right, var(--color-orange), var(--color-yellow));
   color: var(--color-grey);
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
   letter-spacing: .1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
 }
 
-main.menu-body > section > .heading-wrapper > .select-type-wrapper {
+main.menu-body > section .select-type-wrapper {
   display: flex;
-  flex-wrap: nowrap;
-  gap: .2rem;
+  width: 30rem;
+  overflow-x: auto;
+  background-color: var(--color-black);
+  clip-path: polygon(.5rem 0, 100% 0, calc(100% - .5rem) 100%, 0 100%);
+  -webkit-clip-path: polygon(.5rem 0, 100% 0, calc(100% - .5rem) 100%, 0 100%);
 }
 
-main.menu-body > section > .heading-wrapper label {
-  display: flex;
-  align-items: center;
+main.menu-body > section .select-type-wrapper label {
+  flex: 1 1 0;
+  text-align: center;
   color: var(--color-white);
   background-color: var(--color-black);
-  border: .1rem solid var(--color-black);
-  border-radius: .7rem;
-  font-weight: bold;
   padding: .4rem 1rem;
-  font-size: medium;
-  font-weight: 400;
+  font-weight: bold;
   transition: background-color .2s ease-in-out;
-  font-weight: 600;
+  clip-path: polygon(.5rem 0, 100% 0, calc(100% - .5rem) 100%, 0 100%);
+  -webkit-clip-path: polygon(.5rem 0, 100% 0, calc(100% - .5rem) 100%, 0 100%);
 }
 
-main.menu-body > section > .heading-wrapper input:checked + label {
+main.menu-body > section .select-type-wrapper input:checked + label {
   background-color: var(--color-orange);
-  border: .2rem solid var(--color-white);
   color: var(--color-black);
 }
 
@@ -155,4 +150,3 @@ main.menu-body .menu-item[open] .name-wrapper > svg {
   transform: rotate(90deg);
 }
 /* Arrow transition FINISH */
-
