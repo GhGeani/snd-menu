@@ -1,6 +1,7 @@
 .menu-header {
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 .active {
@@ -26,7 +27,7 @@
   padding: .5rem 1rem;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: x-large;
   color: var(--color-white);
   /* border-right: .1rem solid var(--color-yellow); */
 }
