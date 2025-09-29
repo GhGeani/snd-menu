@@ -67,20 +67,26 @@ function handleScrollNavigation() {
   const menu = document.querySelector('.menu-header > ul');
   const menuItems = document.querySelectorAll('.menu-header > ul > li');
   const sections = document.querySelectorAll('main.menu-body > section');
+  let pos = 0;
   window.addEventListener('scroll', () => {
     let currentSection = '';
     sections.forEach(section => {
       const sectionTop = section.offsetTop;
-      if (window.pageYOffset >= sectionTop - 70) {
-        currentSection = section.getAttribute('id');
+      if (window.pageYOffset < 100) {
+        currentSection = sections[0].getAttribute('id');
       }
+      if (window.pageYOffset >= sectionTop - 20) {
+        currentSection = section.getAttribute('id');
+      } 
     });
     menuItems.forEach(item => {
       item.classList.remove('active');
       if (item.querySelector('a').getAttribute('href').includes(currentSection)) {
         item.classList.add('active');
-        moveActiveMenuItemLeft(item, menu);
-        // location.hash = `#${currentSection}`;
+        if (pos !== item.offsetLeft) {
+          pos = item.offsetLeft;
+          moveActiveMenuItemLeft(item, menu);
+        }
       }
     });
   });
@@ -92,5 +98,9 @@ function handleScrollNavigation() {
  * @param {HTMLElement} item - The menu item to scroll into view.
  */
 function moveActiveMenuItemLeft(item, menu) {
-  menu.scrollTo(item.offsetLeft, 0);
+  console.log(item.offsetLeft)
+  menu.scrollTo({
+    left: item.offsetLeft,
+    behavior: 'smooth'
+  });
 }
