@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', loadQOLFunctions);
  * - Moving the active menu item to the left
  */
 function loadQOLFunctions() {
-  selectFirstSection();
   // redirectToSelectedItem();
+  selectFirstSection();
   handleMenuNavigation();
   handleScrollNavigation();
 }
@@ -64,25 +64,22 @@ function handleMenuNavigation() {
  * @function
  */
 function handleScrollNavigation() {
+  const menu = document.querySelector('.menu-header > ul');
   const menuItems = document.querySelectorAll('.menu-header > ul > li');
   const sections = document.querySelectorAll('main.menu-body > section');
   window.addEventListener('scroll', () => {
     let currentSection = '';
-    if (window.pageYOffset < 60) {
-      currentSection = sections[0].getAttribute('id');
-    } else {
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        if (window.pageYOffset >= sectionTop - 50) {
-          currentSection = section.getAttribute('id');
-        }
-      });
-    }
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      if (window.pageYOffset >= sectionTop - 70) {
+        currentSection = section.getAttribute('id');
+      }
+    });
     menuItems.forEach(item => {
       item.classList.remove('active');
       if (item.querySelector('a').getAttribute('href').includes(currentSection)) {
         item.classList.add('active');
-        moveActiveMenuItemLeft(item);
+        moveActiveMenuItemLeft(item, menu);
         // location.hash = `#${currentSection}`;
       }
     });
@@ -94,10 +91,6 @@ function handleScrollNavigation() {
  *
  * @param {HTMLElement} item - The menu item to scroll into view.
  */
-function moveActiveMenuItemLeft(item) {
-  item.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start',
-    inline: 'start'
-  });
+function moveActiveMenuItemLeft(item, menu) {
+  menu.scrollTo(item.offsetLeft, 0);
 }
