@@ -21,10 +21,11 @@ html(lang="en")
         section(id=mainCat)
           .heading-wrapper
             h2= mainCat
-            .select-type-wrapper
-              - let isFirst = true
-              each product, index in products
-                if Array.isArray(products[index])
+            - const subCategoryKeys = Object.keys(products).filter(key => Array.isArray(products[key]));
+            if subCategoryKeys.length
+              .select-type-wrapper
+                - let isFirst = true
+                each index in subCategoryKeys
                   input(id=`p-${index}` type='radio' name=mainCat class='d-none' value=index checked=isFirst)
                   - isFirst = false
                   label(for=`p-${index}`)= index
