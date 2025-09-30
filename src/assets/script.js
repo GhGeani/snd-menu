@@ -24,11 +24,12 @@ function selectFirstSection() {
 }
 
 function redirectToSelectedItem() {
+  const menu = document.querySelector('.menu-header > ul');
   if (!location.hash) {
     const firstSection = document.querySelectorAll('main.menu-body > section')[0];
     location.hash = `#${firstSection.id}`;
   } else {
-    moveActiveMenuItemLeft(document.querySelector(location.hash));
+    moveActiveMenuItemLeft(document.querySelector(location.hash, menu));
   }
 }
 
@@ -46,7 +47,6 @@ function handleMenuNavigation() {
           itm.classList.remove('active');
         })
         item.classList.add('active');
-        moveActiveMenuItemLeft(item);
       })
     });
   }
@@ -98,7 +98,6 @@ function handleScrollNavigation() {
  * @param {HTMLElement} item - The menu item to scroll into view.
  */
 function moveActiveMenuItemLeft(item, menu) {
-  console.log(item.offsetLeft)
   menu.scrollTo({
     left: item.offsetLeft,
     behavior: 'smooth'
