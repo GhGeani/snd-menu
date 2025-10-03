@@ -75,7 +75,7 @@ function handleScrollNavigation() {
       if (window.pageYOffset < 100) {
         currentSection = sections[0].getAttribute('id');
       }
-      if (window.pageYOffset >= sectionTop - 20) {
+      if (window.pageYOffset >= sectionTop - 50) {
         currentSection = section.getAttribute('id');
       } 
     });
