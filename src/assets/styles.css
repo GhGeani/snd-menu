@@ -9,10 +9,12 @@
   --color-black: #1b1b1b;
   --color-orange: #ff7300;
   --color-grey: #292929;
+  --header-offset: 3rem
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--header-offset);
 }
 
 * {

@@ -26,6 +26,7 @@ main.menu-body > section > .heading-wrapper {
   color: var(--color-black);
   font-size: large;
   padding-bottom: .2rem;
+  padding-top: 1rem;
 }
 
 main.menu-body section > .sub-cat-header {
