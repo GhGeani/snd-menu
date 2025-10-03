@@ -2,13 +2,21 @@ doctype html
 html(lang="en")
   head
     meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover")
     title Fastfood S&amp;D
     meta(name="description" content="Meniu Fastfood S&D Bascov")
     meta(name="keywords" content="Fastfood, S&D, Burger, Bauturi, Pizza, Shaorma")
     meta(name="author" content="Fastfood S&D Bascov")
     link(rel="icon" type="image/svg+xml" href="favicon.svg")
     link(rel="stylesheet" href="styles.css")
+    // Google tag (gtag.js)
+    script(async src="https://www.googletagmanager.com/gtag/js?id=G-4TST5TYVXR")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4TST5TYVXR');
   body
     include ./reusable/menu-entry.pug
     include ./reusable/menu-header.pug
