@@ -1,0 +1,440 @@
+{
+  "Meniu": {
+    "Platouri": [
+      {
+        "name": "Plateau traditionnel (pour 4 personnes)",
+        "price": "190",
+        "description": "Pulpe serrée, poulet au poulet, porc, saucisse, cornichons, sauce à l'ail, moutarde, focaccia, oignon rouge et pommes de terre en quartiers",
+        "image": "imgs / t-plate.png"
+      },
+      {
+        "name": "Plateau de fruits de mer (pour 2 personnes - environ 800 g)",
+        "price": "79",
+        "description": "crevettes, moules, calamar, oignon, balles de fromage épicées, balles de fromage, quartiers et pommes de terre citronnières",
+        "image": "IMGS / SEA-Food-Plate.png"
+      }
+    ],
+    "Meniuri": [
+      {
+        "name": "Menu Grill aux crevettes (environ 450g)",
+        "price": "53",
+        "description": "Crevettes grillées, pommes de terre de quartiers, sauce à l'ail, citron et boissons de votre choix"
+      },
+      {
+        "name": "Menu des ailes croustillantes (environ 450g)",
+        "price": "31",
+        "description": "Ailes de poulet, pommes de terre frites, gâteaux, sauce à l'ail, ketchup et boisson à boire"
+      },
+      {
+        "name": "Menu Cârnăciori (environ 400g)",
+        "price": "26",
+        "description": "3 saucisses, pommes de terre frites, gâteau, moutarde, chou et salade de boisson de votre choix"
+      },
+      {
+        "name": "Menu de porc Ciolin (environ 600g)",
+        "price": "61",
+        "description": "Jambon de porc, pommes de terre, sauce à l'ail, salade de chou ,ditif et boisson"
+      },
+      {
+        "name": "Menu Croquettes de poulet (environ 450g)",
+        "price": "38",
+        "description": "5 croquettes de poulet, pommes de terre frites, gâteaux, sauce à l'ail et boissons"
+      },
+      {
+        "name": "Fichier de menu poitrine de poulet (environ 450g)",
+        "price": "34",
+        "description": "Tabs de poulet, pommes de terre frites, salade de chou, concombres marinés, oignon, sauce tzatziki, soignant et boire"
+      },
+      {
+        "name": "Meniu Mixt S&D (Aprox. 450G)",
+        "price": "34",
+        "description": "2 ailes croustillantes, 2 croquettes de poulet, 4 mini-gâteau"
+      },
+      {
+        "name": "Menu poulet crache (environ 450g)",
+        "price": "33",
+        "description": "SPIT DE POULEUR, pommes de terre frites, salade de chou, concombres marinés, oignons, sauce tzatziki, soignant et boire"
+      },
+      {
+        "name": "Petit menu (environ 400g)",
+        "price": "25",
+        "description": "3 petites pommes de terre frites, gâteaux, moutarde, salade de chou et boissons de votre choix"
+      },
+      {
+        "name": "Meniu Nuggets (Aprox. 400G)",
+        "price": "25",
+        "description": "8 pépites de poulet, pommes de terre frites, sauce à l'ail et boissons de votre choix"
+      },
+      {
+        "name": "Enfants de menu (environ 300g)",
+        "price": "21",
+        "description": "5 pépites de poulet, ketchup et boisson 👶"
+      },
+      {
+        "name": "Petit à pièce (80g)",
+        "price": "6"
+      },
+      {
+        "name": "Saucisses à la pièce (50g)",
+        "price": "6"
+      }
+    ],
+    "Pizza": {
+      "50cm": [
+        {
+          "name": "Pizza Casei",
+          "price": "53",
+          "description": "Pizza Sauce, bacon, jambon, mozzarella, chorizzo salam, champignons, olives, poivrons et maïs",
+          "image": "imgs / pizza-casei.png"
+        },
+        {
+          "name": "Pizza paysanne",
+          "price": "53",
+          "description": "Pizza Sauce, saucisse, oignon, mozzarella, bacon, poivrons et maïs",
+          "image": "imgs / pizza-taraneasca.png"
+        },
+        {
+          "name": "Pizza à kebab",
+          "price": "60",
+          "description": "Pizza Sauce, pommes de terre frites, poulet, mozzarella, rouge et roquette",
+          "image": "imgs / pizza-kebab.png"
+        }
+      ],
+      "30cm": [
+        {
+          "name": "Pizza Casei",
+          "price": "32",
+          "description": "Pizza Sauce, bacon, jambon, mozzarella, chorizzo salam, champignons, olives, poivrons et maïs",
+          "image": "imgs / pizza-casei.png"
+        },
+        {
+          "name": "Pizza paysanne",
+          "price": "32",
+          "description": "Pizza Sauce, saucisse, oignon, mozzarella, bacon, poivrons et maïs",
+          "image": "imgs / pizza-taraneasca.png"
+        },
+        {
+          "name": "Pizza à kebab",
+          "price": "35",
+          "description": "Pizza Sauce, pommes de terre frites, poulet, mozzarella, rouge et roquette",
+          "image": "imgs / pizza-kebab.png"
+        },
+        {
+          "name": "Pizza brute de jambon",
+          "price": "33",
+          "description": "Pizza Sauce, prosciutto crudo, mozzarella, roquette, rouge et parmesan",
+          "image": "Imgs / pizza-petla-crudo.png"
+        },
+        {
+          "name": "Pizza chorizzo",
+          "price": "31",
+          "description": "Pizza Sauce, Salam Chorizzo et Mozzarella",
+          "image": "imgs / pizza-chorizzo.png"
+        },
+        {
+          "name": "Pizza thon",
+          "price": "31",
+          "description": "Pizza Sauce, oignon, mozzarella, ton et maïs",
+          "image": "imgs / pizza-ton.png"
+        },
+        {
+          "name": "Pizza Margherita",
+          "price": "26",
+          "description": "Sos de pizza, mozzarella"
+        },
+        {
+          "name": "Pizza carbonara",
+          "price": "31",
+          "description": "SOS Alb, Bacon, OU, mozzarella"
+        },
+        {
+          "name": "Pizza quatre saisons",
+          "price": "31",
+          "description": "Pizza Sauce, jambon, thon, olives, champignons et mozzarella"
+        },
+        {
+          "name": "Sandwich à la pizza avec poulet",
+          "price": "34",
+          "description": "Pizza Sauce, poulet, mozzarella, olives et champignons",
+          "image": "imgs / pizza-s.png"
+        },
+        {
+          "name": "Pizza Mortadella",
+          "price": "34",
+          "description": "Sauce à pizza, crème au fromage, mozzarella, mordaine, roquette et parmesan"
+        },
+        {
+          "name": "Pizza crémeuse",
+          "price": "33",
+          "description": "Sauce blanche, mozzarella et crème au fromage avec jambon"
+        },
+        {
+          "name": "Pizza végétale de 30 cm",
+          "price": "25",
+          "description": "Pizza Sauce, champignons, olives, poivrons, maïs et oignon"
+        },
+        {
+          "name": "Focaccia pizza",
+          "price": "12",
+          "description": "focaccia simple"
+        },
+        {
+          "name": "Pizza Focaccia avec parmesan",
+          "price": "13",
+          "description": "Focaccia avec le parmesan"
+        }
+      ]
+    },
+    "Shaorma": {
+      "Mica": [
+        {
+          "name": "Chicken Shaorma (environ 390g)",
+          "price": "24",
+          "description": "Colle, poulet, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        },
+        {
+          "name": "Shaorma rose poulet (environ 390 g)",
+          "price": "26",
+          "description": "Gale rose, poulet, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise",
+          "image": "imgs / shaorma-rose.png"
+        },
+        {
+          "name": "Shaorma de boeuf (environ 390 g)",
+          "price": "30",
+          "description": "Colle, boeuf, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        },
+        {
+          "name": "Shaorma de bœuf rose (environ 390 g)",
+          "price": "30",
+          "description": "Gale rose, boeuf, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        }
+      ],
+      "Mare": [
+        {
+          "name": "Chicken Shaorma (environ 590g)",
+          "price": "27",
+          "description": "Colle, poulet, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        },
+        {
+          "name": "Shaorma rose poulet (environ 590 g)",
+          "price": "29",
+          "description": "Gale rose, poulet, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise",
+          "image": "imgs / shaorma-rose.png"
+        },
+        {
+          "name": "Shaorma de bœuf (environ 590 g)",
+          "price": "33",
+          "description": "Colle, boeuf, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        },
+        {
+          "name": "Shaorma Pink Beef (environ 590g)",
+          "price": "33",
+          "description": "Gale rose, boeuf, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        }
+      ],
+      "Farfurie": [
+        {
+          "name": "Chicken Shaorma dans l'assiette (environ 550g)",
+          "price": "30",
+          "description": "Colle, poulet, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        },
+        {
+          "name": "Le shaorma de boeuf à l'assiette (environ 550g)",
+          "price": "35",
+          "description": "Colle, boeuf, pommes de terre frites, concombres marinés, oignon, sauce à l'ail, ketchup et mayonnaise"
+        }
+      ]
+    },
+    "Burgeri": {
+      "Pui": [
+        {
+          "name": "Kebab en pot (environ 310g)",
+          "price": "23",
+          "description": "Pita, bœuf, pommes de terre frites, concombres marinés, oignons, tomates et salade de chou, avec sauce à l'ail"
+        },
+        {
+          "name": "Donner kebab de pui (aprox. 310g)",
+          "price": "30",
+          "description": "Colle de kebab, boeuf, pommes de terre frites, concombres marinés, oignons, tomates et salade de chou, avec sauce à l'ail"
+        },
+        {
+          "name": "Hamburger au poulet (environ 390 g)",
+          "price": "20",
+          "description": "Crichie, poulet, salade de chou, pommes de terre frites, ketchup et mayonnaise"
+        },
+        {
+          "name": "Hamburger avec œuf de poulet (environ 440g)",
+          "price": "22",
+          "description": "Crisque, poulet, salade de chou, pommes de terre frites, œuf, ketchup et mayonnaise"
+        },
+        {
+          "name": "Poulet Cheeseburger (environ 420g)",
+          "price": "22",
+          "description": "Crichie, poulet, fromage, pommes de terre frites, salade verte, oignon, mayonnaise et ketchup"
+        },
+        {
+          "name": "Sac avec poulet (environ 350g)",
+          "price": "19",
+          "description": "Sac, poitrine de poulet, tomates, salade verte et concombres"
+        },
+        {
+          "name": "Sandwich Cald (Aprox. 250G)",
+          "price": "16",
+          "description": "jambon, fromage, tomates et concombres"
+        }
+      ],
+      "Porc": [
+        {
+          "name": "Hamburger de porc (environ 390 g)",
+          "price": "20",
+          "description": "Piele, porc, salade de chou, pommes de terre frites, ketchup et mayonnaise"
+        },
+        {
+          "name": "Hamburger avec œuf de porc (environ 440g)",
+          "price": "22",
+          "description": "Piele, porc, salade de chou, pommes de terre frites, œuf, ketchup et mayonnaise"
+        },
+        {
+          "name": "Cheeseburger de porc (environ 420g)",
+          "price": "22",
+          "description": "Piele, porc, fromage, pommes de terre frites, salade verte, oignon, mayonnaise et ketchup"
+        }
+      ],
+      "Vită": [
+        {
+          "name": "Kebab de bœuf (environ 310g)",
+          "price": "25",
+          "description": "Pita, bœuf, pommes de terre frites, concombres marinés, oignons, tomates et salade de chou, avec sauce à l'ail"
+        },
+        {
+          "name": "Donner Kebab de bœuf",
+          "price": "33",
+          "description": "Coche de kebab, sauce à l'ail, bœuf, salade verte, oignon et tomates",
+          "image": "imgs / donner-kebab.png"
+        }
+      ]
+    },
+    "Garnituri": [
+      {
+        "name": "Chignon",
+        "price": "2"
+      },
+      {
+        "name": "Pommes de terre frites",
+        "price": "7"
+      },
+      {
+        "name": "Hot-dog",
+        "price": "9"
+      },
+      {
+        "name": "Salade de concombre",
+        "price": "5"
+      },
+      {
+        "name": "Salade de chou",
+        "price": "5"
+      }
+    ],
+    "Deserturi": [
+      {
+        "name": "2BUC / 200G Pankes",
+        "price": "10",
+        "image": "IMGS / PANCKAKS.JPEG"
+      },
+      {
+        "name": "Papanși (Aprox. 150G)",
+        "price": "11",
+        "image": "IMGS / Donuts.jpeg"
+      }
+    ],
+    "Sosuri": [
+      {
+        "name": "Mayonnaise",
+        "price": "3"
+      },
+      {
+        "name": "Ketchup",
+        "price": "3"
+      },
+      {
+        "name": "Sauce à l'ail",
+        "price": "3"
+      },
+      {
+        "name": "Moutarde",
+        "price": "3"
+      }
+    ],
+    "Băuturi": [
+      {
+        "name": "Ayran",
+        "price": "5"
+      },
+      {
+        "name": "SUC 0,33L",
+        "price": "8"
+      },
+      {
+        "name": "Suc 0,5L",
+        "price": "10"
+      },
+      {
+        "name": "0,5 L",
+        "price": "8"
+      },
+      {
+        "name": "Café",
+        "price": "5"
+      },
+      {
+        "name": "Enfer",
+        "price": "6"
+      },
+      {
+        "name": "Brûler",
+        "price": "10"
+      },
+      {
+        "name": "Red Bull 0,25L",
+        "price": "12"
+      },
+      {
+        "name": "Monstre",
+        "price": "12"
+      },
+      {
+        "name": "Bière en verre de 400 ml",
+        "price": "9"
+      },
+      {
+        "name": "Bière sans alcool 500 ml",
+        "price": "9"
+      },
+      {
+        "name": "Bere Tuborg 330 ml",
+        "price": "9"
+      },
+      {
+        "name": "Bere Tuborg 500 ml",
+        "price": "10"
+      },
+      {
+        "name": "Bere Heineken 330 ml",
+        "price": "11"
+      },
+      {
+        "name": "Bere Holsten Radler 330 ml",
+        "price": "10"
+      },
+      {
+        "name": "Bere Carlsberg 330ml",
+        "price": "11"
+      },
+      {
+        "name": "Bere Carlsberg 500 ml",
+        "price": "12"
+      }
+    ]
+  }
+}
