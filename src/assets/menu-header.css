@@ -2,6 +2,15 @@
   position: sticky;
   top: 0;
   z-index: 2;
+  transform: translateY(0);
+  transition: transform .4s ease;
+}
+
+.scrolled-down {
+  transform: translateY(-5rem);
+}
+.scrolled-up {
+  transform: translateY(0);
 }
 
 .active {
@@ -27,7 +36,7 @@
   padding: .5rem 1rem;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
   color: var(--color-white);
   /* border-right: .1rem solid var(--color-yellow); */
 }
