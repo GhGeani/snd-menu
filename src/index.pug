@@ -29,6 +29,7 @@ html(lang="en")
   body
     include ./reusable/menu-entry.pug
     include ./reusable/menu-header.pug
+    include ./reusable/widget.pug
     nav.menu-header
       ul
         each products, mainCat in Meniu
@@ -64,4 +65,8 @@ html(lang="en")
                     subP.description,
                     subP.image
                   )
+    +widget('/imgs/phone.svg', 'Order now!', {
+      href:"tel:+40773730977",
+      class:'widget order-widget'
+    })
     script(type="module", src="script.js") 
