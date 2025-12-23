@@ -8,12 +8,25 @@ document.addEventListener('DOMContentLoaded', loadQOLFunctions);
  * - Moving the active menu item to the left
  */
 function loadQOLFunctions() {
+  removeSelectedSection();
   // redirectToSelectedItem();
   selectFirstSection();
   handleMenuNavigation();
   handleScrollNavigation();
 }
 
+function setNavbarVisibility(c) {
+  const menuWrapper = document.querySelector('.menu-header');
+  menuWrapper.classList.remove('scrolled-down', 'scrolled-up');
+  menuWrapper.classList.add(c);
+}
+
+function removeSelectedSection() {
+  console.log(location.hash);
+  if (location.hash) {
+    location.replace('');
+  }
+}
 
 /**
  * Selects the first menu item in the menu header and adds the 'active' class to it.
@@ -68,7 +81,14 @@ function handleScrollNavigation() {
   const menuItems = document.querySelectorAll('.menu-header > ul > li');
   const sections = document.querySelectorAll('main.menu-body > section');
   let pos = 0;
+  let lastY = window.pageYOffset;
   window.addEventListener('scroll', () => {
+    if (lastY > window.pageYOffset) {
+      setNavbarVisibility('scrolled-up');
+    } else if (lastY < window.pageYOffset) {
+      setNavbarVisibility('scrolled-down');
+    }
+    lastY = window.pageYOffset <= 0 ? 0 : window.pageYOffset;
     let currentSection = '';
     sections.forEach(section => {
       const sectionTop = section.offsetTop;
@@ -99,7 +119,7 @@ function handleScrollNavigation() {
  */
 function moveActiveMenuItemLeft(item, menu) {
   menu.scrollTo({
-    left: item.offsetLeft,
+    left: item.offsetLeft - 100,
     behavior: 'smooth'
   });
 }

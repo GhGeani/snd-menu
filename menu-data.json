@@ -156,7 +156,8 @@
         {
           "name": "Pizza Carbonara",
           "price": "32",
-          "description": "sos alb, bacon, ou, mozzarella"
+          "description": "sos alb, bacon, ou, mozzarella",
+          "image": "imgs/pizza-carbonara.webp"
         },
         {
           "name": "Pizza Quattro stagioni",
@@ -177,7 +178,8 @@
         {
           "name": "Pizza Cremosa",
           "price": "34",
-          "description": "sos alb, mozzarella și cremă de brânză, cu șuncă"
+          "description": "sos alb, mozzarella și cremă de brânză, cu șuncă",
+          "image": "imgs/pizza-cremosa.webp"
         },
         {
           "name": "Pizza Vegetală 30cm",
