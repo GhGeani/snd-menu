@@ -1,3 +1,4 @@
-mixin widget(imgSrc, imgTitle, anchorAttr)
+mixin widget(imgSrc, widgetTitle, anchorAttr)
   a&attributes(anchorAttr)
-    img.widget-img(src=imgSrc, alt=imgTitle title=imgTitle)
+    img.widget-img(src=imgSrc, alt=widgetTitle title=widgetTitle)
+    span=widgetTitle
