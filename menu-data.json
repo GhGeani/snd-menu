@@ -463,5 +463,9 @@
         "price": "13"
       }
     ]
+  },
+  "misc": {
+    "orderWidgetTitle": "Pleasează comanda!",
+    "orderHref": "tel:+40773730977"
   }
 }
