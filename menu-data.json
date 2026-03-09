@@ -82,8 +82,18 @@
         "description": "pulpă de pui rotișat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)"
       },
       {
+        "name": "Meniu cârnat cu cașcaval",
+        "price": "27",
+        "description": "chiflă proaspătă (130g), cârnat cu cașcaval (100g), castraveți murați (40g), sos tzatziki (40g), ketchup (20g), cartofi prăjiți (200g) și o doză suc sau apă",
+        "image": "imgs/carnat-cascaval-combo.webp"
+      },
+      {
         "name": "Mici la bucată (80g)",
         "price": "7"
+      },
+      {
+        "name": "Cârnat cu cașcaval",
+        "price": "17"
       },
       {
         "name": "Cârnăciori la bucată (50g)",
@@ -469,4 +479,3 @@
     "orderHref": "tel:+40773730977"
   }
 }
-
