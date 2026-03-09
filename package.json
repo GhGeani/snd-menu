@@ -11,7 +11,7 @@
     "watch:images": "npm run copy:images && chokidar 'src/imgs/**/*' -c 'npm run copy:images'",
     "build:pug": "pug src/index.pug --out dist --obj menu-data.json",
     "watch:pug": "pug src/index.pug --out dist --obj menu-data.json --watch",
-    "clean:dist": "rm -rf dist",
+    "clean:dist": "node -e \"require('fs').rmSync('dist',{ recursive: true, force: true })\"",
     "dev:server": "npm-run-all clean:dist copy:logo --parallel server \"watch:pug\" \"watch:assets\" \"watch:images\"",
     "build": "npm-run-all clean:dist copy:logo build:pug build:assets copy:images",
     "menu-to-pdf": "node ./scripts/menu-to-pdf.js"
