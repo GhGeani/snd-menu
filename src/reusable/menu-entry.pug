@@ -1,16 +1,26 @@
-mixin menu-entry(name, price, description, imgSrc)
+mixin menu-entry(product)
+  - const ro = product.i18n && product.i18n.ro ? product.i18n.ro : { name: product.name || '', description: product.description || '' }
+  - const en = product.i18n && product.i18n.en ? product.i18n.en : ro
+  - const bg = product.i18n && product.i18n.bg ? product.i18n.bg : ro
+  - const tr = product.i18n && product.i18n.tr ? product.i18n.tr : ro
+  - const hasDescription = Boolean(ro.description || en.description || bg.description || tr.description)
   details.menu-item
     summary
       .name-wrapper
-        svg(class='arrow' style=description ? 'display: inline-block;' : 'display:none;' width="10" height="10" viewBox="0 0 10 10")
+        svg(class='arrow' style=hasDescription ? 'display: inline-block;' : 'display:none;' width="10" height="10" viewBox="0 0 10 10")
           polygon(points="0,0 10,5 0,10")
-        h4.card-title 
-          span.title #{name}
-          if imgSrc
-            p.price.padd-t-1.padd-l-0 #{price} LEI
-      if imgSrc
-        img.img-responsive(src=imgSrc alt=imgSrc title=imgSrc loading="lazy")
-      if !imgSrc
-        p.price #{price} LEI
-    if description
-      p=description
+        .card-title
+          h4.title.js-product-name(data-ro=ro.name data-en=en.name data-bg=bg.name data-tr=tr.name)= ro.name
+          if product.image
+            p.price.padd-t-1.padd-l-0 #{product.price} LEI
+          .product-language-picker
+            button.lang-btn.js-lang-btn(data-lang='ro' type='button') RO
+            button.lang-btn.js-lang-btn(data-lang='en' type='button') EN
+            button.lang-btn.js-lang-btn(data-lang='bg' type='button') BG
+            button.lang-btn.js-lang-btn(data-lang='tr' type='button') TR
+      if product.image
+        img.img-responsive(src=product.image alt=product.image title=product.image loading="lazy")
+      if !product.image
+        p.price #{product.price} LEI
+    if hasDescription
+      p.js-product-description(data-ro=ro.description data-en=en.description data-bg=bg.description data-tr=tr.description)= ro.description

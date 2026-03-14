@@ -58,22 +58,12 @@ html(lang="en")
                   label(for=`p-${index}`)= index
           each product, index in products
             if typeof product === 'object' && !Array.isArray(product)
-              +menu-entry(
-                product.name,
-                product.price,
-                product.description,
-                product.image
-              )
+              +menu-entry(product)
             if Array.isArray(product)
               section(id=`p-${index}`)
                 h4.sub-cat-header= `${mainCat} ${index}`
                 each subP in product
-                  +menu-entry(
-                    subP.name,
-                    subP.price,
-                    subP.description,
-                    subP.image
-                  )
+                  +menu-entry(subP)
     +widget('/imgs/phone.svg', misc.orderWidgetTitle, {
       href:misc.orderHref,
       class:'widget order-widget'
