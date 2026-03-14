@@ -331,11 +331,11 @@
       {
         "name": "Meniu rotisat (aprox. 500g)",
         "price": "29",
-        "description": "pulpă de pui rotișat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)",
+        "description": "pulpă de pui rotisat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)",
         "i18n": {
           "ro": {
             "name": "Meniu rotisat (aprox. 500g)",
-            "description": "pulpă de pui rotișat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)"
+            "description": "pulpă de pui rotisat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)"
           },
           "en": {
             "name": "Rotisserie combo (approx. 500g)",

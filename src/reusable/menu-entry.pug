@@ -7,17 +7,18 @@ mixin menu-entry(product)
   details.menu-item
     summary
       .name-wrapper
-        svg(class='arrow' style=hasDescription ? 'display: inline-block;' : 'display:none;' width="10" height="10" viewBox="0 0 10 10")
-          polygon(points="0,0 10,5 0,10")
         .card-title
-          h4.title.js-product-name(data-ro=ro.name data-en=en.name data-bg=bg.name data-tr=tr.name)= ro.name
-          if product.image
-            p.price.padd-t-1.padd-l-0 #{product.price} LEI
           .product-language-picker
             button.lang-btn.js-lang-btn(data-lang='ro' type='button') RO
             button.lang-btn.js-lang-btn(data-lang='en' type='button') EN
             button.lang-btn.js-lang-btn(data-lang='bg' type='button') BG
             button.lang-btn.js-lang-btn(data-lang='tr' type='button') TR
+          .name-row
+            svg(class='arrow' style=hasDescription ? 'display: inline-block;' : 'display:none;' width="10" height="10" viewBox="0 0 10 10")
+              polygon(points="0,0 10,5 0,10")
+            h4.title.js-product-name(data-ro=ro.name data-en=en.name data-bg=bg.name data-tr=tr.name)= ro.name
+          if product.image
+            p.price.padd-t-1.padd-l-0 #{product.price} LEI
       if product.image
         img.img-responsive(src=product.image alt=product.image title=product.image loading="lazy")
       if !product.image
