@@ -5,99 +5,429 @@
         "name": "Platou tradițional (pentru 4 persoane)",
         "price": "199",
         "description": "pulpe dezosate, ficăței de pui, ciolan de porc, cârnăciori, murături, sos de usturoi, muștar, focaccia, ceapă roșie și cartofi wedges",
-        "image": "imgs/t-plate.png"
+        "image": "imgs/t-plate.png",
+        "i18n": {
+          "ro": {
+            "name": "Platou tradițional (pentru 4 persoane)",
+            "description": "pulpe dezosate, ficăței de pui, ciolan de porc, cârnăciori, murături, sos de usturoi, muștar, focaccia, ceapă roșie și cartofi wedges"
+          },
+          "en": {
+            "name": "Traditional platter (for 4 people)",
+            "description": "boneless thighs, chicken livers, pork knuckle, sausages, pickles, garlic sauce, mustard, focaccia, red onion and wedge fries"
+          },
+          "bg": {
+            "name": "Традиционна плата (за 4 човека)",
+            "description": "обезкостени бутчета, пилешки дробчета, свинско пищялно, наденички, туршия, чеснов сос, горчица, фокача, червен лук и картофи на клинове"
+          },
+          "tr": {
+            "name": "Geleneksel tabak (4 kişilik)",
+            "description": "kemiksiz but, tavuk ciğeri, domuz incik, küçük sosisler, turşu, sarımsaklı sos, hardal, focaccia, kırmızı soğan ve patates dilimleri"
+          }
+        }
       },
       {
         "name": "Platou fructe de mare (pentru 2 persoane - aprox. 800g)",
         "price": "81",
         "description": "creveți, midii, calamar, ceapă, bulete de brânză picantă, bulete de cașcaval, cartofi wedges și lămâie",
-        "image": "imgs/sea-food-plate.png"
+        "image": "imgs/sea-food-plate.png",
+        "i18n": {
+          "ro": {
+            "name": "Platou fructe de mare (pentru 2 persoane - aprox. 800g)",
+            "description": "creveți, midii, calamar, ceapă, bulete de brânză picantă, bulete de cașcaval, cartofi wedges și lămâie"
+          },
+          "en": {
+            "name": "Seafood platter (for 2 people - approx. 800g)",
+            "description": "shrimp, mussels, squid, onion, spicy cheese balls, yellow cheese balls, wedge fries and lemon"
+          },
+          "bg": {
+            "name": "Плата морски дарове (за 2 човека - ок. 800g)",
+            "description": "скариди, миди, калмари, лук, топчета пикантно сирене, топчета кашкавал, картофи на клинове и лимон"
+          },
+          "tr": {
+            "name": "Deniz ürünleri tabağı (2 kişilik - yaklaşık 800g)",
+            "description": "karides, midye, kalamar, soğan, acılı peynir topları, kaşar peyniri topları, patates dilimleri ve limon"
+          }
+        }
       },
       {
         "name": "Platou rotisat (pentru 4 persoane)",
         "price": "199",
         "description": "jumătate de pui rotisat, pulpe de pui (3 buc), cașcaval pane (3 buc), ceapă pane (10 buc), coaste de porc (8 buc), murături asortate, sos tzatziki, cartofi (800g), focaccia și salată verde",
-        "image": "imgs/roasted-plate.webp"
+        "image": "imgs/roasted-plate.webp",
+        "i18n": {
+          "ro": {
+            "name": "Platou rotisat (pentru 4 persoane)",
+            "description": "jumătate de pui rotisat, pulpe de pui (3 buc), cașcaval pane (3 buc), ceapă pane (10 buc), coaste de porc (8 buc), murături asortate, sos tzatziki, cartofi (800g), focaccia și salată verde"
+          },
+          "en": {
+            "name": "Rotisserie platter (for 4 people)",
+            "description": "half rotisserie chicken, chicken drumsticks (3 pcs), breaded yellow cheese (3 pcs), breaded onion (10 pcs), pork ribs (8 pcs), assorted pickles, tzatziki sauce, potatoes (800g), focaccia and lettuce"
+          },
+          "bg": {
+            "name": "Плата на шиш (за 4 човека)",
+            "description": "половин пиле на шиш, пилешки бутчета (3 бр), паниран кашкавал (3 бр), паниран лук (10 бр), свински ребра (8 бр), асорти туршия, сос цацики, картофи (800g), фокача и зелена салата"
+          },
+          "tr": {
+            "name": "Çevirme tabağı (4 kişilik)",
+            "description": "yarım çevirme tavuk, tavuk but (3 adet), kızarmış kaşar peyniri (3 adet), kızarmış soğan (10 adet), domuz kaburga (8 adet), karışık turşu, tzatziki sos, patates (800g), focaccia ve yeşil salata"
+          }
+        }
       }
     ],
     "Meniuri": [
       {
         "name": "Meniu creveți grill (aprox. 450g)",
         "price": "55",
-        "description": "creveți la grătar, cartofi wedges, sos de usturoi, lămâie și băutură la alegere"
+        "description": "creveți la grătar, cartofi wedges, sos de usturoi, lămâie și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu creveți grill (aprox. 450g)",
+            "description": "creveți la grătar, cartofi wedges, sos de usturoi, lămâie și băutură la alegere"
+          },
+          "en": {
+            "name": "Grilled shrimp combo (approx. 450g)",
+            "description": "grilled shrimp, wedge fries, garlic sauce, lemon and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню скариди на грил (ок. 450g)",
+            "description": "скариди на скара, картофи на клинове, чеснов сос, лимон и напитка по избор"
+          },
+          "tr": {
+            "name": "Izgara karides menü (yaklaşık 450g)",
+            "description": "ızgara karides, patates dilimleri, sarımsaklı sos, limon ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu aripioare crispy (aprox. 450g)",
         "price": "32",
-        "description": "aripioare de pui, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere"
+        "description": "aripioare de pui, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu aripioare crispy (aprox. 450g)",
+            "description": "aripioare de pui, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere"
+          },
+          "en": {
+            "name": "Crispy wings combo (approx. 450g)",
+            "description": "chicken wings, french fries, bun, garlic sauce, ketchup and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню хрупкави крилца (ок. 450g)",
+            "description": "пилешки крилца, пържени картофи, кифличка, чеснов сос, кетчуп и напитка по избор"
+          },
+          "tr": {
+            "name": "Çıtır kanat menü (yaklaşık 450g)",
+            "description": "tavuk kanatları, patates kızartması, sandviç ekmeği, sarımsaklı sos, ketçap ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu cârnăciori (aprox. 400g)",
         "price": "27",
-        "description": "3 cârnăciori, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
+        "description": "3 cârnăciori, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu cârnăciori (aprox. 400g)",
+            "description": "3 cârnăciori, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
+          },
+          "en": {
+            "name": "Sausage combo (approx. 400g)",
+            "description": "3 sausages, french fries, bun, mustard, coleslaw and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню наденички (ок. 400g)",
+            "description": "3 наденички, пържени картофи, кифличка, горчица, зелева салата и напитка по избор"
+          },
+          "tr": {
+            "name": "Sosis menü (yaklaşık 400g)",
+            "description": "3 sosis, patates kızartması, sandviç ekmeği, hardal, lahana salatası ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu ciolan de porc (aprox. 600g)",
         "price": "65",
-        "description": "ciolan de porc, cartofi, sos de usturoi, salată de varză, chiflă și băutură la alegere"
+        "description": "ciolan de porc, cartofi, sos de usturoi, salată de varză, chiflă și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu ciolan de porc (aprox. 600g)",
+            "description": "ciolan de porc, cartofi, sos de usturoi, salată de varză, chiflă și băutură la alegere"
+          },
+          "en": {
+            "name": "Pork knuckle combo (approx. 600g)",
+            "description": "pork knuckle, potatoes, garlic sauce, coleslaw, bun and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню свинско пищялно (ок. 600g)",
+            "description": "свинско пищялно, картофи, чеснов сос, зелева салата, кифличка и напитка по избор"
+          },
+          "tr": {
+            "name": "Domuz incik menü (yaklaşık 600g)",
+            "description": "domuz incik, patates, sarımsaklı sos, lahana salatası, sandviç ekmeği ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu crochete de pui (aprox. 450g)",
         "price": "39",
-        "description": "5 crochete de pui, cartofi prăjiți, chiflă, sos de usturoi și băutură la alegere"
+        "description": "5 crochete de pui, cartofi prăjiți, chiflă, sos de usturoi și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu crochete de pui (aprox. 450g)",
+            "description": "5 crochete de pui, cartofi prăjiți, chiflă, sos de usturoi și băutură la alegere"
+          },
+          "en": {
+            "name": "Chicken croquettes combo (approx. 450g)",
+            "description": "5 chicken croquettes, french fries, bun, garlic sauce and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню пилешки крокети (ок. 450g)",
+            "description": "5 пилешки крокети, пържени картофи, кифличка, чеснов сос и напитка по избор"
+          },
+          "tr": {
+            "name": "Tavuk kroket menü (yaklaşık 450g)",
+            "description": "5 tavuk kroketi, patates kızartması, sandviç ekmeği, sarımsaklı sos ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu file piept de pui (aprox. 450g)",
         "price": "35",
-        "description": "file de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere"
+        "description": "file de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu file piept de pui (aprox. 450g)",
+            "description": "file de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere"
+          },
+          "en": {
+            "name": "Chicken breast fillet combo (approx. 450g)",
+            "description": "chicken fillet, french fries, coleslaw, pickled cucumbers, onion, tzatziki sauce, bun and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню пилешко филе (ок. 450g)",
+            "description": "пилешко филе, пържени картофи, зелева салата, кисели краставици, лук, сос цацики, кифличка и напитка по избор"
+          },
+          "tr": {
+            "name": "Tavuk göğsü fileto menü (yaklaşık 450g)",
+            "description": "tavuk fileto, patates kızartması, lahana salatası, turşu salatalık, soğan, tzatziki sos, sandviç ekmeği ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu mixt S&D (aprox. 450g)",
         "price": "35",
-        "description": "2 aripioare crispy, 2 crochete de pui, 4 mini chiftele, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere"
+        "description": "2 aripioare crispy, 2 crochete de pui, 4 mini chiftele, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu mixt S&D (aprox. 450g)",
+            "description": "2 aripioare crispy, 2 crochete de pui, 4 mini chiftele, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere"
+          },
+          "en": {
+            "name": "S&D mixed combo (approx. 450g)",
+            "description": "2 crispy wings, 2 chicken croquettes, 4 mini meatballs, french fries, bun, garlic sauce, ketchup and a drink of your choice"
+          },
+          "bg": {
+            "name": "Смесено меню S&D (ок. 450g)",
+            "description": "2 хрупкави крилца, 2 пилешки крокети, 4 мини кюфтенца, пържени картофи, кифличка, чеснов сос, кетчуп и напитка по избор"
+          },
+          "tr": {
+            "name": "S&D karışık menü (yaklaşık 450g)",
+            "description": "2 çıtır kanat, 2 tavuk kroketi, 4 mini köfte, patates kızartması, sandviç ekmeği, sarımsaklı sos, ketçap ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu șnițel de pui (aprox. 450g)",
         "price": "34",
-        "description": "șnițel de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere"
+        "description": "șnițel de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu șnițel de pui (aprox. 450g)",
+            "description": "șnițel de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere"
+          },
+          "en": {
+            "name": "Chicken schnitzel combo (approx. 450g)",
+            "description": "chicken schnitzel, french fries, coleslaw, pickled cucumbers, onion, tzatziki sauce, bun and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню пилешки шницел (ок. 450g)",
+            "description": "пилешки шницел, пържени картофи, зелева салата, кисели краставици, лук, сос цацики, кифличка и напитка по избор"
+          },
+          "tr": {
+            "name": "Tavuk şnitzel menü (yaklaşık 450g)",
+            "description": "tavuk şnitzel, patates kızartması, lahana salatası, turşu salatalık, soğan, tzatziki sos, sandviç ekmeği ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu mici (aprox. 400g)",
         "price": "26",
-        "description": "3 mici, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
+        "description": "3 mici, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu mici (aprox. 400g)",
+            "description": "3 mici, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere"
+          },
+          "en": {
+            "name": "Mici combo (approx. 400g)",
+            "description": "3 mici, french fries, bun, mustard, coleslaw and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню мичи (ок. 400g)",
+            "description": "3 мичи, пържени картофи, кифличка, горчица, зелева салата и напитка по избор"
+          },
+          "tr": {
+            "name": "Mici menü (yaklaşık 400g)",
+            "description": "3 mici, patates kızartması, sandviç ekmeği, hardal, lahana salatası ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu nuggets (aprox. 400g)",
         "price": "26",
-        "description": "8 nuggets de pui, cartofi prăjiți, sos de usturoi și băutură la alegere"
+        "description": "8 nuggets de pui, cartofi prăjiți, sos de usturoi și băutură la alegere",
+        "i18n": {
+          "ro": {
+            "name": "Meniu nuggets (aprox. 400g)",
+            "description": "8 nuggets de pui, cartofi prăjiți, sos de usturoi și băutură la alegere"
+          },
+          "en": {
+            "name": "Nuggets combo (approx. 400g)",
+            "description": "8 chicken nuggets, french fries, garlic sauce and a drink of your choice"
+          },
+          "bg": {
+            "name": "Меню нъгетс (ок. 400g)",
+            "description": "8 пилешки нъгетса, пържени картофи, чеснов сос и напитка по избор"
+          },
+          "tr": {
+            "name": "Nuggets menü (yaklaşık 400g)",
+            "description": "8 tavuk nuggets, patates kızartması, sarımsaklı sos ve seçime göre içecek"
+          }
+        }
       },
       {
         "name": "Meniu copii (aprox. 300g)",
         "price": "22",
-        "description": "5 nuggets de pui, ketchup și băutură 👶"
+        "description": "5 nuggets de pui, ketchup și băutură 👶",
+        "i18n": {
+          "ro": {
+            "name": "Meniu copii (aprox. 300g)",
+            "description": "5 nuggets de pui, ketchup și băutură 👶"
+          },
+          "en": {
+            "name": "Kids combo (approx. 300g)",
+            "description": "5 chicken nuggets, ketchup and a drink 👶"
+          },
+          "bg": {
+            "name": "Детско меню (ок. 300g)",
+            "description": "5 пилешки нъгетса, кетчуп и напитка 👶"
+          },
+          "tr": {
+            "name": "Çocuk menü (yaklaşık 300g)",
+            "description": "5 tavuk nuggets, ketçap ve içecek 👶"
+          }
+        }
       },
       {
         "name": "Meniu rotisat (aprox. 500g)",
         "price": "29",
-        "description": "pulpă de pui rotișat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)"
+        "description": "pulpă de pui rotisat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)",
+        "i18n": {
+          "ro": {
+            "name": "Meniu rotisat (aprox. 500g)",
+            "description": "pulpă de pui rotisat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)"
+          },
+          "en": {
+            "name": "Rotisserie combo (approx. 500g)",
+            "description": "rotisserie chicken thigh, breaded yellow cheese, french fries (200g), tzatziki sauce, bun and a drink (water or juice)"
+          },
+          "bg": {
+            "name": "Меню пиле на шиш (ок. 500g)",
+            "description": "бутче пиле на шиш, паниран кашкавал, пържени картофи (200g), сос цацики, кифличка и напитка (вода или сок)"
+          },
+          "tr": {
+            "name": "Çevirme menü (yaklaşık 500g)",
+            "description": "çevirme tavuk but, kızarmış kaşar peyniri, patates kızartması (200g), tzatziki sos, sandviç ekmeği ve içecek (su veya meyve suyu)"
+          }
+        }
       },
       {
         "name": "Meniu cârnat cu cașcaval",
         "price": "27",
         "description": "chiflă proaspătă (130g), cârnat cu cașcaval (100g), castraveți murați (40g), sos tzatziki (40g), ketchup (20g), cartofi prăjiți (200g) și o doză suc sau apă",
-        "image": "imgs/carnat-cascaval-combo.webp"
+        "image": "imgs/carnat-cascaval-combo.webp",
+        "i18n": {
+          "ro": {
+            "name": "Meniu cârnat cu cașcaval",
+            "description": "chiflă proaspătă (130g), cârnat cu cașcaval (100g), castraveți murați (40g), sos tzatziki (40g), ketchup (20g), cartofi prăjiți (200g) și o doză suc sau apă"
+          },
+          "en": {
+            "name": "Sausage with cheese combo",
+            "description": "fresh bun (130g), sausage with yellow cheese (100g), pickled cucumbers (40g), tzatziki sauce (40g), ketchup (20g), french fries (200g) and a can of juice or water"
+          },
+          "bg": {
+            "name": "Меню наденица с кашкавал",
+            "description": "прясна кифличка (130g), наденица с кашкавал (100g), кисели краставици (40g), сос цацики (40g), кетчуп (20g), пържени картофи (200g) и кен сок или вода"
+          },
+          "tr": {
+            "name": "Kaşarlı sosis menü",
+            "description": "taze sandviç ekmeği (130g), kaşarlı sosis (100g), turşu salatalık (40g), tzatziki sos (40g), ketçap (20g), patates kızartması (200g) ve bir kutu meyve suyu veya su"
+          }
+        }
       },
       {
         "name": "Mici la bucată (80g)",
-        "price": "7"
+        "price": "7",
+        "i18n": {
+          "ro": {
+            "name": "Mici la bucată (80g)"
+          },
+          "en": {
+            "name": "Mici per piece (80g)"
+          },
+          "bg": {
+            "name": "Мичи на брой (80g)"
+          },
+          "tr": {
+            "name": "Mici adet (80g)"
+          }
+        }
       },
       {
         "name": "Cârnat cu cașcaval",
-        "price": "17"
+        "price": "17",
+        "i18n": {
+          "ro": {
+            "name": "Cârnat cu cașcaval"
+          },
+          "en": {
+            "name": "Sausage with yellow cheese"
+          },
+          "bg": {
+            "name": "Наденица с кашкавал"
+          },
+          "tr": {
+            "name": "Kaşarlı sosis"
+          }
+        }
       },
       {
         "name": "Cârnăciori la bucată (50g)",
-        "price": "7"
+        "price": "7",
+        "i18n": {
+          "ro": {
+            "name": "Cârnăciori la bucată (50g)"
+          },
+          "en": {
+            "name": "Sausages per piece (50g)"
+          },
+          "bg": {
+            "name": "Наденички на брой (50g)"
+          },
+          "tr": {
+            "name": "Sosis adet (50g)"
+          }
+        }
       }
     ],
     "Pizza": {
@@ -106,19 +436,73 @@
           "name": "Pizza Casei",
           "price": "55",
           "description": "sos de pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei și porumb",
-          "image": "imgs/pizza-casei.png"
+          "image": "imgs/pizza-casei.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Casei",
+              "description": "sos de pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei și porumb"
+            },
+            "en": {
+              "name": "House Pizza",
+              "description": "pizza sauce, bacon, ham, mozzarella, chorizo salami, mushrooms, olives, bell pepper and corn"
+            },
+            "bg": {
+              "name": "Пица на Къщата",
+              "description": "сос за пица, бекон, шунка, моцарела, салам чоризо, гъби, маслини, чушки и царевица"
+            },
+            "tr": {
+              "name": "Ev Pizzası",
+              "description": "pizza sosu, bacon, jambon, mozzarella, chorizo salam, mantar, zeytin, biber ve mısır"
+            }
+          }
         },
         {
           "name": "Pizza Țărănească",
           "price": "55",
           "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb",
-          "image": "imgs/pizza-taraneasca.png"
+          "image": "imgs/pizza-taraneasca.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Țărănească",
+              "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb"
+            },
+            "en": {
+              "name": "Rustic Pizza",
+              "description": "pizza sauce, sausages, onion, mozzarella, bacon, bell pepper and corn"
+            },
+            "bg": {
+              "name": "Селска Пица",
+              "description": "сос за пица, наденички, лук, моцарела, бекон, чушки и царевица"
+            },
+            "tr": {
+              "name": "Köy Pizzası",
+              "description": "pizza sosu, sosis, soğan, mozzarella, bacon, biber ve mısır"
+            }
+          }
         },
         {
           "name": "Pizza Kebab",
           "price": "62",
           "description": "sos de pizza, cartofi prăjiți, carne de pui, mozzarella, roșii și rucola",
-          "image": "imgs/pizza-kebab.png"
+          "image": "imgs/pizza-kebab.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Kebab",
+              "description": "sos de pizza, cartofi prăjiți, carne de pui, mozzarella, roșii și rucola"
+            },
+            "en": {
+              "name": "Kebab Pizza",
+              "description": "pizza sauce, french fries, chicken meat, mozzarella, tomatoes and arugula"
+            },
+            "bg": {
+              "name": "Пица Кебап",
+              "description": "сос за пица, пържени картофи, пилешко месо, моцарела, домати и рукола"
+            },
+            "tr": {
+              "name": "Kebap Pizzası",
+              "description": "pizza sosu, patates kızartması, tavuk eti, mozzarella, domates ve roka"
+            }
+          }
         }
       ],
       "30cm": [
@@ -126,85 +510,355 @@
           "name": "Pizza Casei",
           "price": "33",
           "description": "sos de pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei și porumb",
-          "image": "imgs/pizza-casei.png"
+          "image": "imgs/pizza-casei.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Casei",
+              "description": "sos de pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei și porumb"
+            },
+            "en": {
+              "name": "House Pizza",
+              "description": "pizza sauce, bacon, ham, mozzarella, chorizo salami, mushrooms, olives, bell pepper and corn"
+            },
+            "bg": {
+              "name": "Пица на Къщата",
+              "description": "сос за пица, бекон, шунка, моцарела, салам чоризо, гъби, маслини, чушки и царевица"
+            },
+            "tr": {
+              "name": "Ev Pizzası",
+              "description": "pizza sosu, bacon, jambon, mozzarella, chorizo salam, mantar, zeytin, biber ve mısır"
+            }
+          }
         },
         {
           "name": "Pizza Țărănească",
           "price": "33",
           "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb",
-          "image": "imgs/pizza-taraneasca.png"
+          "image": "imgs/pizza-taraneasca.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Țărănească",
+              "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb"
+            },
+            "en": {
+              "name": "Rustic Pizza",
+              "description": "pizza sauce, sausages, onion, mozzarella, bacon, bell pepper and corn"
+            },
+            "bg": {
+              "name": "Селска Пица",
+              "description": "сос за пица, наденички, лук, моцарела, бекон, чушки и царевица"
+            },
+            "tr": {
+              "name": "Köy Pizzası",
+              "description": "pizza sosu, sosis, soğan, mozzarella, bacon, biber ve mısır"
+            }
+          }
         },
         {
           "name": "Pizza Kebab",
           "price": "36",
           "description": "sos de pizza, cartofi prăjiți, carne de pui, mozzarella, roșii și rucola",
-          "image": "imgs/pizza-kebab.png"
+          "image": "imgs/pizza-kebab.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Kebab",
+              "description": "sos de pizza, cartofi prăjiți, carne de pui, mozzarella, roșii și rucola"
+            },
+            "en": {
+              "name": "Kebab Pizza",
+              "description": "pizza sauce, french fries, chicken meat, mozzarella, tomatoes and arugula"
+            },
+            "bg": {
+              "name": "Пица Кебап",
+              "description": "сос за пица, пържени картофи, пилешко месо, моцарела, домати и рукола"
+            },
+            "tr": {
+              "name": "Kebap Pizzası",
+              "description": "pizza sosu, patates kızartması, tavuk eti, mozzarella, domates ve roka"
+            }
+          }
         },
         {
           "name": "Pizza Prosciutto crudo",
           "price": "34",
           "description": "sos de pizza, prosciutto crudo, mozzarella, rucola, roșii și parmezan",
-          "image": "imgs/pizza-prosciutto-crudo.png"
+          "image": "imgs/pizza-prosciutto-crudo.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Prosciutto crudo",
+              "description": "sos de pizza, prosciutto crudo, mozzarella, rucola, roșii și parmezan"
+            },
+            "en": {
+              "name": "Pizza Prosciutto crudo",
+              "description": "pizza sauce, prosciutto crudo, mozzarella, arugula, tomatoes and parmesan"
+            },
+            "bg": {
+              "name": "Пица Прошуто крудо",
+              "description": "сос за пица, прошуто крудо, моцарела, рукола, домати и пармезан"
+            },
+            "tr": {
+              "name": "Pizza Prosciutto crudo",
+              "description": "pizza sosu, prosciutto crudo, mozzarella, roka, domates ve parmesan"
+            }
+          }
         },
         {
           "name": "Pizza Chorizzo",
           "price": "32",
           "description": "sos de pizza, salam chorizzo și mozzarella",
-          "image": "imgs/pizza-chorizzo.png"
+          "image": "imgs/pizza-chorizzo.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Chorizzo",
+              "description": "sos de pizza, salam chorizzo și mozzarella"
+            },
+            "en": {
+              "name": "Pizza Chorizo",
+              "description": "pizza sauce, chorizo salami and mozzarella"
+            },
+            "bg": {
+              "name": "Пица Чоризо",
+              "description": "сос за пица, салам чоризо и моцарела"
+            },
+            "tr": {
+              "name": "Pizza Chorizo",
+              "description": "pizza sosu, chorizo salam ve mozzarella"
+            }
+          }
         },
         {
           "name": "Pizza Cu ton",
           "price": "32",
           "description": "sos de pizza, ceapă, mozzarella, ton și porumb",
-          "image": "imgs/pizza-ton.png"
+          "image": "imgs/pizza-ton.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Cu ton",
+              "description": "sos de pizza, ceapă, mozzarella, ton și porumb"
+            },
+            "en": {
+              "name": "Tuna Pizza",
+              "description": "pizza sauce, onion, mozzarella, tuna and corn"
+            },
+            "bg": {
+              "name": "Пица с Риба Тон",
+              "description": "сос за пица, лук, моцарела, риба тон и царевица"
+            },
+            "tr": {
+              "name": "Ton Balıklı Pizza",
+              "description": "pizza sosu, soğan, mozzarella, ton balığı ve mısır"
+            }
+          }
         },
         {
           "name": "Pizza Margherita",
           "price": "27",
-          "description": "sos de pizza, mozzarella"
+          "description": "sos de pizza, mozzarella",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Margherita",
+              "description": "sos de pizza, mozzarella"
+            },
+            "en": {
+              "name": "Pizza Margherita",
+              "description": "pizza sauce, mozzarella"
+            },
+            "bg": {
+              "name": "Пица Маргарита",
+              "description": "сос за пица, моцарела"
+            },
+            "tr": {
+              "name": "Pizza Margherita",
+              "description": "pizza sosu, mozzarella"
+            }
+          }
         },
         {
           "name": "Pizza Carbonara",
           "price": "32",
           "description": "sos alb, bacon, ou, mozzarella",
-          "image": "imgs/pizza-carbonara.webp"
+          "image": "imgs/pizza-carbonara.webp",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Carbonara",
+              "description": "sos alb, bacon, ou, mozzarella"
+            },
+            "en": {
+              "name": "Pizza Carbonara",
+              "description": "white sauce, bacon, egg, mozzarella"
+            },
+            "bg": {
+              "name": "Пица Карбонара",
+              "description": "бял сос, бекон, яйце, моцарела"
+            },
+            "tr": {
+              "name": "Pizza Carbonara",
+              "description": "beyaz sos, bacon, yumurta, mozzarella"
+            }
+          }
         },
         {
           "name": "Pizza Quattro stagioni",
           "price": "32",
-          "description": "sos de pizza, șuncă, ton, măsline, ciuperci și mozzarella"
+          "description": "sos de pizza, șuncă, ton, măsline, ciuperci și mozzarella",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Quattro stagioni",
+              "description": "sos de pizza, șuncă, ton, măsline, ciuperci și mozzarella"
+            },
+            "en": {
+              "name": "Pizza Quattro stagioni",
+              "description": "pizza sauce, ham, tuna, olives, mushrooms and mozzarella"
+            },
+            "bg": {
+              "name": "Пица Куатро Стаджони",
+              "description": "сос за пица, шунка, риба тон, маслини, гъби и моцарела"
+            },
+            "tr": {
+              "name": "Pizza Quattro stagioni",
+              "description": "pizza sosu, jambon, ton balığı, zeytin, mantar ve mozzarella"
+            }
+          }
         },
         {
           "name": "Pizza Sandwich cu pui",
           "price": "35",
           "description": "sos de pizza, carne de pui, mozzarella, măsline și ciuperci",
-          "image": "imgs/pizza-s.png"
+          "image": "imgs/pizza-s.png",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Sandwich cu pui",
+              "description": "sos de pizza, carne de pui, mozzarella, măsline și ciuperci"
+            },
+            "en": {
+              "name": "Chicken sandwich pizza",
+              "description": "pizza sauce, chicken meat, mozzarella, olives and mushrooms"
+            },
+            "bg": {
+              "name": "Пица Сандвич с Пиле",
+              "description": "сос за пица, пилешко месо, моцарела, маслини и гъби"
+            },
+            "tr": {
+              "name": "Tavuklu sandviç pizza",
+              "description": "pizza sosu, tavuk eti, mozzarella, zeytin ve mantar"
+            }
+          }
         },
         {
           "name": "Pizza Mortadella",
           "price": "35",
-          "description": "sos de pizza, cremă de brânză, mozzarella, mortadella, rucola și parmezan"
+          "description": "sos de pizza, cremă de brânză, mozzarella, mortadella, rucola și parmezan",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Mortadella",
+              "description": "sos de pizza, cremă de brânză, mozzarella, mortadella, rucola și parmezan"
+            },
+            "en": {
+              "name": "Pizza Mortadella",
+              "description": "pizza sauce, cream cheese, mozzarella, mortadella, arugula and parmesan"
+            },
+            "bg": {
+              "name": "Пица Мортадела",
+              "description": "сос за пица, крем сирене, моцарела, мортадела, рукола и пармезан"
+            },
+            "tr": {
+              "name": "Pizza Mortadella",
+              "description": "pizza sosu, krem peynir, mozzarella, mortadella, roka ve parmesan"
+            }
+          }
         },
         {
           "name": "Pizza Cremosa",
           "price": "34",
           "description": "sos alb, mozzarella și cremă de brânză, cu șuncă",
-          "image": "imgs/pizza-cremosa.webp"
+          "image": "imgs/pizza-cremosa.webp",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Cremosa",
+              "description": "sos alb, mozzarella și cremă de brânză, cu șuncă"
+            },
+            "en": {
+              "name": "Pizza Cremosa",
+              "description": "white sauce, mozzarella and cream cheese, with ham"
+            },
+            "bg": {
+              "name": "Пица Кремоза",
+              "description": "бял сос, моцарела и крем сирене, с шунка"
+            },
+            "tr": {
+              "name": "Pizza Cremosa",
+              "description": "beyaz sos, mozzarella ve krem peynir, jambon ile"
+            }
+          }
         },
         {
           "name": "Pizza Vegetală 30cm",
           "price": "26",
-          "description": "sos de pizza, ciuperci, măsline, ardei, porumb și ceapă"
+          "description": "sos de pizza, ciuperci, măsline, ardei, porumb și ceapă",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Vegetală 30cm",
+              "description": "sos de pizza, ciuperci, măsline, ardei, porumb și ceapă"
+            },
+            "en": {
+              "name": "Vegetable Pizza 30cm",
+              "description": "pizza sauce, mushrooms, olives, bell pepper, corn and onion"
+            },
+            "bg": {
+              "name": "Вегетарианска Пица 30cm",
+              "description": "сос за пица, гъби, маслини, чушки, царевица и лук"
+            },
+            "tr": {
+              "name": "Sebzeli Pizza 30cm",
+              "description": "pizza sosu, mantar, zeytin, biber, mısır ve soğan"
+            }
+          }
         },
         {
           "name": "Pizza Focaccia",
           "price": "13",
-          "description": "focaccia simplă"
+          "description": "focaccia simplă",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Focaccia",
+              "description": "focaccia simplă"
+            },
+            "en": {
+              "name": "Focaccia",
+              "description": "plain focaccia"
+            },
+            "bg": {
+              "name": "Пица Фокача",
+              "description": "обикновена фокача"
+            },
+            "tr": {
+              "name": "Pizza Focaccia",
+              "description": "sade focaccia"
+            }
+          }
         },
         {
           "name": "Pizza Focaccia cu parmezan",
           "price": "14",
-          "description": "focaccia cu parmezan"
+          "description": "focaccia cu parmezan",
+          "i18n": {
+            "ro": {
+              "name": "Pizza Focaccia cu parmezan",
+              "description": "focaccia cu parmezan"
+            },
+            "en": {
+              "name": "Focaccia with parmesan",
+              "description": "focaccia with parmesan"
+            },
+            "bg": {
+              "name": "Пица Фокача с пармезан",
+              "description": "фокача с пармезан"
+            },
+            "tr": {
+              "name": "Parmesanlı Focaccia",
+              "description": "parmesanlı focaccia"
+            }
+          }
         }
       ]
     },
@@ -213,58 +867,238 @@
         {
           "name": "Shaorma de pui (aprox. 390g)",
           "price": "25",
-          "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma de pui (aprox. 390g)",
+              "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Chicken shawarma (approx. 390g)",
+              "description": "flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Пилешка шаурма (ок. 390g)",
+              "description": "питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Tavuk şavarma (yaklaşık 390g)",
+              "description": "lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma roz de pui (aprox. 390g)",
           "price": "27",
           "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
-          "image": "imgs/shaorma-pink.png"
+          "image": "imgs/shaorma-pink.png",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma roz de pui (aprox. 390g)",
+              "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Pink chicken shawarma (approx. 390g)",
+              "description": "pink flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Розова пилешка шаурма (ок. 390g)",
+              "description": "розова питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Pembe tavuk şavarma (yaklaşık 390g)",
+              "description": "pembe lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma de vită (aprox. 390g)",
           "price": "33",
-          "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma de vită (aprox. 390g)",
+              "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Beef shawarma (approx. 390g)",
+              "description": "flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Телешка шаурма (ок. 390g)",
+              "description": "питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Sığır eti şavarma (yaklaşık 390g)",
+              "description": "lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma roz de vită (aprox. 390g)",
           "price": "31",
-          "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma roz de vită (aprox. 390g)",
+              "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Pink beef shawarma (approx. 390g)",
+              "description": "pink flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Розова телешка шаурма (ок. 390g)",
+              "description": "розова питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Pembe sığır eti şavarma (yaklaşık 390g)",
+              "description": "pembe lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         }
       ],
       "Mare": [
         {
           "name": "Shaorma de pui (aprox. 590g)",
           "price": "28",
-          "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma de pui (aprox. 590g)",
+              "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Chicken shawarma (approx. 590g)",
+              "description": "flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Пилешка шаурма (ок. 590g)",
+              "description": "питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Tavuk şavarma (yaklaşık 590g)",
+              "description": "lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma roz de pui (aprox. 590g)",
           "price": "30",
           "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
-          "image": "imgs/shaorma-pink.png"
+          "image": "imgs/shaorma-pink.png",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma roz de pui (aprox. 590g)",
+              "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Pink chicken shawarma (approx. 590g)",
+              "description": "pink flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Розова пилешка шаурма (ок. 590g)",
+              "description": "розова питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Pembe tavuk şavarma (yaklaşık 590g)",
+              "description": "pembe lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma de vită (aprox. 590g)",
           "price": "37",
-          "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma de vită (aprox. 590g)",
+              "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Beef shawarma (approx. 590g)",
+              "description": "flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Телешка шаурма (ок. 590g)",
+              "description": "питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Sığır eti şavarma (yaklaşık 590g)",
+              "description": "lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma roz de vită (aprox. 590g)",
           "price": "34",
-          "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma roz de vită (aprox. 590g)",
+              "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Pink beef shawarma (approx. 590g)",
+              "description": "pink flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Розова телешка шаурма (ок. 590g)",
+              "description": "розова питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Pembe sığır eti şavarma (yaklaşık 590g)",
+              "description": "pembe lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         }
       ],
       "Farfurie": [
         {
           "name": "Shaorma de pui la farfurie (aprox. 550g)",
           "price": "31",
-          "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma de pui la farfurie (aprox. 550g)",
+              "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Chicken shawarma plate (approx. 550g)",
+              "description": "flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Пилешка шаурма в чиния (ок. 550g)",
+              "description": "питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Tabak tavuk şavarma (yaklaşık 550g)",
+              "description": "lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Shaorma de vită la farfurie (aprox. 550g)",
           "price": "40",
-          "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+          "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Shaorma de vită la farfurie (aprox. 550g)",
+              "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Beef shawarma plate (approx. 550g)",
+              "description": "flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Телешка шаурма в чиния (ок. 550g)",
+              "description": "питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Tabak sığır eti şavarma (yaklaşık 550g)",
+              "description": "lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
+            }
+          }
         }
       ]
     },
@@ -273,204 +1107,862 @@
         {
           "name": "Kebab de pui (aprox. 310g)",
           "price": "24",
-          "description": "pită, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+          "description": "pită, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi",
+          "i18n": {
+            "ro": {
+              "name": "Kebab de pui (aprox. 310g)",
+              "description": "pită, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+            },
+            "en": {
+              "name": "Chicken kebab (approx. 310g)",
+              "description": "pita bread, chicken meat, french fries, pickled cucumbers, onion, tomatoes and coleslaw, with garlic sauce"
+            },
+            "bg": {
+              "name": "Пилешки кебап (ок. 310g)",
+              "description": "пита, пилешко месо, пържени картофи, кисели краставици, лук, домати и зелева салата, с чеснов сос"
+            },
+            "tr": {
+              "name": "Tavuk kebap (yaklaşık 310g)",
+              "description": "pita ekmeği, tavuk eti, patates kızartması, turşu salatalık, soğan, domates ve lahana salatası, sarımsaklı sos ile"
+            }
+          }
         },
         {
           "name": "Donner kebab de pui (aprox. 310g)",
           "price": "31",
-          "description": "lipie kebab, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+          "description": "lipie kebab, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi",
+          "i18n": {
+            "ro": {
+              "name": "Donner kebab de pui (aprox. 310g)",
+              "description": "lipie kebab, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+            },
+            "en": {
+              "name": "Chicken döner kebab (approx. 310g)",
+              "description": "kebab flatbread, chicken meat, french fries, pickled cucumbers, onion, tomatoes and coleslaw, with garlic sauce"
+            },
+            "bg": {
+              "name": "Пилешки дюнер кебап (ок. 310g)",
+              "description": "питка за кебап, пилешко месо, пържени картофи, кисели краставици, лук, домати и зелева салата, с чеснов сос"
+            },
+            "tr": {
+              "name": "Tavuk döner kebap (yaklaşık 310g)",
+              "description": "kebap lavaşı, tavuk eti, patates kızartması, turşu salatalık, soğan, domates ve lahana salatası, sarımsaklı sos ile"
+            }
+          }
         },
         {
           "name": "Hamburger de pui (aprox. 390g)",
           "price": "21",
-          "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ketchup și maioneză"
+          "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Hamburger de pui (aprox. 390g)",
+              "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Chicken burger (approx. 390g)",
+              "description": "bun, chicken meat, coleslaw, french fries, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Пилешки хамбургер (ок. 390g)",
+              "description": "кифличка, пилешко месо, зелева салата, пържени картофи, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Tavuk burger (yaklaşık 390g)",
+              "description": "sandviç ekmeği, tavuk eti, lahana salatası, patates kızartması, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Hamburger cu ou de pui (aprox. 440g)",
           "price": "23",
-          "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ou, ketchup și maioneză"
+          "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ou, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Hamburger cu ou de pui (aprox. 440g)",
+              "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ou, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Chicken burger with egg (approx. 440g)",
+              "description": "bun, chicken meat, coleslaw, french fries, egg, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Пилешки хамбургер с яйце (ок. 440g)",
+              "description": "кифличка, пилешко месо, зелева салата, пържени картофи, яйце, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Yumurtalı tavuk burger (yaklaşık 440g)",
+              "description": "sandviç ekmeği, tavuk eti, lahana salatası, patates kızartması, yumurta, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Cheeseburger de pui (aprox. 420g)",
           "price": "23",
-          "description": "chiflă, carne de pui, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup"
+          "description": "chiflă, carne de pui, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup",
+          "i18n": {
+            "ro": {
+              "name": "Cheeseburger de pui (aprox. 420g)",
+              "description": "chiflă, carne de pui, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup"
+            },
+            "en": {
+              "name": "Chicken cheeseburger (approx. 420g)",
+              "description": "bun, chicken meat, yellow cheese, french fries, lettuce, onion, mayonnaise and ketchup"
+            },
+            "bg": {
+              "name": "Пилешки чийзбургер (ок. 420g)",
+              "description": "кифличка, пилешко месо, кашкавал, пържени картофи, зелена салата, лук, майонеза и кетчуп"
+            },
+            "tr": {
+              "name": "Tavuk cheeseburger (yaklaşık 420g)",
+              "description": "sandviç ekmeği, tavuk eti, kaşar peyniri, patates kızartması, yeşil salata, soğan, mayonez ve ketçap"
+            }
+          }
         },
         {
           "name": "Baghetă cu pui (aprox. 350g)",
           "price": "20",
-          "description": "baghetă, piept de pui, roșii, salată verde și castraveți"
+          "description": "baghetă, piept de pui, roșii, salată verde și castraveți",
+          "i18n": {
+            "ro": {
+              "name": "Baghetă cu pui (aprox. 350g)",
+              "description": "baghetă, piept de pui, roșii, salată verde și castraveți"
+            },
+            "en": {
+              "name": "Chicken baguette (approx. 350g)",
+              "description": "baguette, chicken breast, tomatoes, lettuce and cucumbers"
+            },
+            "bg": {
+              "name": "Багет с пиле (ок. 350g)",
+              "description": "багет, пилешки гърди, домати, зелена салата и краставици"
+            },
+            "tr": {
+              "name": "Tavuklu baget (yaklaşık 350g)",
+              "description": "baget, tavuk göğsü, domates, yeşil salata ve salatalık"
+            }
+          }
         },
         {
           "name": "Sandwich cald (aprox. 250g)",
           "price": "17",
-          "description": "șuncă, cașcaval, roșii și castraveți"
+          "description": "șuncă, cașcaval, roșii și castraveți",
+          "i18n": {
+            "ro": {
+              "name": "Sandwich cald (aprox. 250g)",
+              "description": "șuncă, cașcaval, roșii și castraveți"
+            },
+            "en": {
+              "name": "Hot sandwich (approx. 250g)",
+              "description": "ham, yellow cheese, tomatoes and cucumbers"
+            },
+            "bg": {
+              "name": "Топъл сандвич (ок. 250g)",
+              "description": "шунка, кашкавал, домати и краставици"
+            },
+            "tr": {
+              "name": "Sıcak sandviç (yaklaşık 250g)",
+              "description": "jambon, kaşar peyniri, domates ve salatalık"
+            }
+          }
         }
       ],
       "Porc": [
         {
           "name": "Hamburger de porc (aprox. 390g)",
           "price": "21",
-          "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ketchup și maioneză"
+          "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Hamburger de porc (aprox. 390g)",
+              "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Pork burger (approx. 390g)",
+              "description": "bun, pork meat, coleslaw, french fries, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Свински хамбургер (ок. 390g)",
+              "description": "кифличка, свинско месо, зелева салата, пържени картофи, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Domuz burger (yaklaşık 390g)",
+              "description": "sandviç ekmeği, domuz eti, lahana salatası, patates kızartması, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Hamburger cu ou de porc (aprox. 440g)",
           "price": "23",
-          "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ou, ketchup și maioneză"
+          "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ou, ketchup și maioneză",
+          "i18n": {
+            "ro": {
+              "name": "Hamburger cu ou de porc (aprox. 440g)",
+              "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ou, ketchup și maioneză"
+            },
+            "en": {
+              "name": "Pork burger with egg (approx. 440g)",
+              "description": "bun, pork meat, coleslaw, french fries, egg, ketchup and mayonnaise"
+            },
+            "bg": {
+              "name": "Свински хамбургер с яйце (ок. 440g)",
+              "description": "кифличка, свинско месо, зелева салата, пържени картофи, яйце, кетчуп и майонеза"
+            },
+            "tr": {
+              "name": "Yumurtalı domuz burger (yaklaşık 440g)",
+              "description": "sandviç ekmeği, domuz eti, lahana salatası, patates kızartması, yumurta, ketçap ve mayonez"
+            }
+          }
         },
         {
           "name": "Cheeseburger de porc (aprox. 420g)",
           "price": "23",
-          "description": "chiflă, carne de porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup"
+          "description": "chiflă, carne de porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup",
+          "i18n": {
+            "ro": {
+              "name": "Cheeseburger de porc (aprox. 420g)",
+              "description": "chiflă, carne de porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup"
+            },
+            "en": {
+              "name": "Pork cheeseburger (approx. 420g)",
+              "description": "bun, pork meat, yellow cheese, french fries, lettuce, onion, mayonnaise and ketchup"
+            },
+            "bg": {
+              "name": "Свински чийзбургер (ок. 420g)",
+              "description": "кифличка, свинско месо, кашкавал, пържени картофи, зелена салата, лук, майонеза и кетчуп"
+            },
+            "tr": {
+              "name": "Domuz cheeseburger (yaklaşık 420g)",
+              "description": "sandviç ekmeği, domuz eti, kaşar peyniri, patates kızartması, yeşil salata, soğan, mayonez ve ketçap"
+            }
+          }
         },
         {
           "name": "Plescăviță (aprox. 400g)",
           "price": "25",
-          "description": "plescăviță, cartofi prăjiți, sos tzatziki, salată de varză și chiflă"
+          "description": "plescăviță, cartofi prăjiți, sos tzatziki, salată de varză și chiflă",
+          "i18n": {
+            "ro": {
+              "name": "Plescăviță (aprox. 400g)",
+              "description": "plescăviță, cartofi prăjiți, sos tzatziki, salată de varză și chiflă"
+            },
+            "en": {
+              "name": "Pljeskavica (approx. 400g)",
+              "description": "pljeskavica, french fries, tzatziki sauce, coleslaw and bun"
+            },
+            "bg": {
+              "name": "Плескавица (ок. 400g)",
+              "description": "плескавица, пържени картофи, сос цацики, зелева салата и кифличка"
+            },
+            "tr": {
+              "name": "Pljeskavica (yaklaşık 400g)",
+              "description": "pljeskavica, patates kızartması, tzatziki sos, lahana salatası ve sandviç ekmeği"
+            }
+          }
         },
         {
           "name": "Burger sârbesc (aprox. 400g)",
           "price": "25",
-          "description": "plescăviță, chiflă, roșii, castraveți, salată verde și cartofi prăjiți"
+          "description": "plescăviță, chiflă, roșii, castraveți, salată verde și cartofi prăjiți",
+          "i18n": {
+            "ro": {
+              "name": "Burger sârbesc (aprox. 400g)",
+              "description": "plescăviță, chiflă, roșii, castraveți, salată verde și cartofi prăjiți"
+            },
+            "en": {
+              "name": "Serbian burger (approx. 400g)",
+              "description": "pljeskavica, bun, tomatoes, cucumbers, lettuce and french fries"
+            },
+            "bg": {
+              "name": "Сръбски бургер (ок. 400g)",
+              "description": "плескавица, кифличка, домати, краставици, зелена салата и пържени картофи"
+            },
+            "tr": {
+              "name": "Sırp burger (yaklaşık 400g)",
+              "description": "pljeskavica, sandviç ekmeği, domates, salatalık, yeşil salata ve patates kızartması"
+            }
+          }
         }
       ],
       "Vită": [
         {
           "name": "Kebab de vită (aprox. 310g)",
           "price": "28",
-          "description": "pită, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+          "description": "pită, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi",
+          "i18n": {
+            "ro": {
+              "name": "Kebab de vită (aprox. 310g)",
+              "description": "pită, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi"
+            },
+            "en": {
+              "name": "Beef kebab (approx. 310g)",
+              "description": "pita bread, beef meat, french fries, pickled cucumbers, onion, tomatoes and coleslaw, with garlic sauce"
+            },
+            "bg": {
+              "name": "Телешки кебап (ок. 310g)",
+              "description": "пита, телешко месо, пържени картофи, кисели краставици, лук, домати и зелева салата, с чеснов сос"
+            },
+            "tr": {
+              "name": "Sığır eti kebap (yaklaşık 310g)",
+              "description": "pita ekmeği, dana eti, patates kızartması, turşu salatalık, soğan, domates ve lahana salatası, sarımsaklı sos ile"
+            }
+          }
         },
         {
           "name": "Donner kebab de vită",
           "price": "34",
           "description": "lipie kebab, sos de usturoi, carne de vită, salată verde, ceapă și roșii",
-          "image": "imgs/donner-kebab.png"
+          "image": "imgs/donner-kebab.png",
+          "i18n": {
+            "ro": {
+              "name": "Donner kebab de vită",
+              "description": "lipie kebab, sos de usturoi, carne de vită, salată verde, ceapă și roșii"
+            },
+            "en": {
+              "name": "Beef döner kebab",
+              "description": "kebab flatbread, garlic sauce, beef meat, lettuce, onion and tomatoes"
+            },
+            "bg": {
+              "name": "Телешки дюнер кебап",
+              "description": "питка за кебап, чеснов сос, телешко месо, зелена салата, лук и домати"
+            },
+            "tr": {
+              "name": "Dana döner kebap",
+              "description": "kebap lavaşı, sarımsaklı sos, dana eti, yeşil salata, soğan ve domates"
+            }
+          }
         }
       ]
     },
     "Garnituri": [
       {
         "name": "Chiflă",
-        "price": "3"
+        "price": "3",
+        "i18n": {
+          "ro": {
+            "name": "Chiflă"
+          },
+          "en": {
+            "name": "Bun"
+          },
+          "bg": {
+            "name": "Кифличка"
+          },
+          "tr": {
+            "name": "Sandviç ekmeği"
+          }
+        }
       },
       {
         "name": "Cartofi prăjiți",
-        "price": "8"
+        "price": "8",
+        "i18n": {
+          "ro": {
+            "name": "Cartofi prăjiți"
+          },
+          "en": {
+            "name": "French fries"
+          },
+          "bg": {
+            "name": "Пържени картофи"
+          },
+          "tr": {
+            "name": "Patates kızartması"
+          }
+        }
       },
       {
         "name": "Hot dog",
-        "price": "10"
+        "price": "10",
+        "i18n": {
+          "ro": {
+            "name": "Hot dog"
+          },
+          "en": {
+            "name": "Hot dog"
+          },
+          "bg": {
+            "name": "Хот дог"
+          },
+          "tr": {
+            "name": "Hot dog"
+          }
+        }
       },
       {
         "name": "Salată de castraveți",
-        "price": "6"
+        "price": "6",
+        "i18n": {
+          "ro": {
+            "name": "Salată de castraveți"
+          },
+          "en": {
+            "name": "Cucumber salad"
+          },
+          "bg": {
+            "name": "Краставична салата"
+          },
+          "tr": {
+            "name": "Salatalık salatası"
+          }
+        }
       },
       {
         "name": "Salată de varză",
-        "price": "6"
+        "price": "6",
+        "i18n": {
+          "ro": {
+            "name": "Salată de varză"
+          },
+          "en": {
+            "name": "Coleslaw"
+          },
+          "bg": {
+            "name": "Зелева салата"
+          },
+          "tr": {
+            "name": "Lahana salatası"
+          }
+        }
       }
     ],
     "Deserturi": [
       {
         "name": "Clătite 2buc/200g",
         "price": "11",
-        "image": "imgs/pancakes.jpeg"
+        "image": "imgs/pancakes.jpeg",
+        "i18n": {
+          "ro": {
+            "name": "Clătite 2buc/200g"
+          },
+          "en": {
+            "name": "Pancakes 2pcs/200g"
+          },
+          "bg": {
+            "name": "Палачинки 2бр/200g"
+          },
+          "tr": {
+            "name": "Krep 2 adet/200g"
+          }
+        }
       },
       {
-        "name": "Papanși (aprox. 150g)",
+        "name": "Papanași (aprox. 150g)",
         "price": "12",
-        "image": "imgs/donuts.jpeg"
+        "image": "imgs/donuts.jpeg",
+        "i18n": {
+          "ro": {
+            "name": "Papanași (aprox. 150g)"
+          },
+          "en": {
+            "name": "Papanași (approx. 150g)"
+          },
+          "bg": {
+            "name": "Папанаши (ок. 150g)"
+          },
+          "tr": {
+            "name": "Papanași (yaklaşık 150g)"
+          }
+        }
       }
     ],
     "Sosuri": [
       {
         "name": "Maioneză",
-        "price": "4"
+        "price": "4",
+        "i18n": {
+          "ro": {
+            "name": "Maioneză"
+          },
+          "en": {
+            "name": "Mayonnaise"
+          },
+          "bg": {
+            "name": "Майонеза"
+          },
+          "tr": {
+            "name": "Mayonez"
+          }
+        }
       },
       {
         "name": "Ketchup",
-        "price": "4"
+        "price": "4",
+        "i18n": {
+          "ro": {
+            "name": "Ketchup"
+          },
+          "en": {
+            "name": "Ketchup"
+          },
+          "bg": {
+            "name": "Кетчуп"
+          },
+          "tr": {
+            "name": "Ketçap"
+          }
+        }
       },
       {
         "name": "Sos de usturoi",
-        "price": "4"
+        "price": "4",
+        "i18n": {
+          "ro": {
+            "name": "Sos de usturoi"
+          },
+          "en": {
+            "name": "Garlic sauce"
+          },
+          "bg": {
+            "name": "Чеснов сос"
+          },
+          "tr": {
+            "name": "Sarımsaklı sos"
+          }
+        }
       },
       {
         "name": "Muștar",
-        "price": "4"
+        "price": "4",
+        "i18n": {
+          "ro": {
+            "name": "Muștar"
+          },
+          "en": {
+            "name": "Mustard"
+          },
+          "bg": {
+            "name": "Горчица"
+          },
+          "tr": {
+            "name": "Hardal"
+          }
+        }
       }
     ],
     "Băuturi": [
       {
         "name": "Ayran",
-        "price": "6"
+        "price": "6",
+        "i18n": {
+          "ro": {
+            "name": "Ayran"
+          },
+          "en": {
+            "name": "Ayran"
+          },
+          "bg": {
+            "name": "Айран"
+          },
+          "tr": {
+            "name": "Ayran"
+          }
+        }
       },
       {
         "name": "Suc 0.33L",
-        "price": "9"
+        "price": "9",
+        "i18n": {
+          "ro": {
+            "name": "Suc 0.33L"
+          },
+          "en": {
+            "name": "Juice 0.33L"
+          },
+          "bg": {
+            "name": "Сок 0.33L"
+          },
+          "tr": {
+            "name": "Meyve suyu 0.33L"
+          }
+        }
       },
       {
         "name": "Suc 0.5L",
-        "price": "11"
+        "price": "11",
+        "i18n": {
+          "ro": {
+            "name": "Suc 0.5L"
+          },
+          "en": {
+            "name": "Juice 0.5L"
+          },
+          "bg": {
+            "name": "Сок 0.5L"
+          },
+          "tr": {
+            "name": "Meyve suyu 0.5L"
+          }
+        }
       },
       {
         "name": "Apă 0.5L",
-        "price": "9"
+        "price": "9",
+        "i18n": {
+          "ro": {
+            "name": "Apă 0.5L"
+          },
+          "en": {
+            "name": "Water 0.5L"
+          },
+          "bg": {
+            "name": "Вода 0.5L"
+          },
+          "tr": {
+            "name": "Su 0.5L"
+          }
+        }
       },
       {
         "name": "Cafea",
-        "price": "6"
+        "price": "6",
+        "i18n": {
+          "ro": {
+            "name": "Cafea"
+          },
+          "en": {
+            "name": "Coffee"
+          },
+          "bg": {
+            "name": "Кафе"
+          },
+          "tr": {
+            "name": "Kahve"
+          }
+        }
       },
       {
         "name": "Frappe",
-        "price": "16"
+        "price": "16",
+        "i18n": {
+          "ro": {
+            "name": "Frappe"
+          },
+          "en": {
+            "name": "Frappé"
+          },
+          "bg": {
+            "name": "Фрапе"
+          },
+          "tr": {
+            "name": "Frappe"
+          }
+        }
       },
       {
         "name": "Hell",
-        "price": "7"
+        "price": "7",
+        "i18n": {
+          "ro": {
+            "name": "Hell"
+          },
+          "en": {
+            "name": "Hell"
+          },
+          "bg": {
+            "name": "Hell"
+          },
+          "tr": {
+            "name": "Hell"
+          }
+        }
       },
       {
         "name": "Burn",
-        "price": "11"
+        "price": "11",
+        "i18n": {
+          "ro": {
+            "name": "Burn"
+          },
+          "en": {
+            "name": "Burn"
+          },
+          "bg": {
+            "name": "Burn"
+          },
+          "tr": {
+            "name": "Burn"
+          }
+        }
       },
       {
         "name": "Red Bull 0.25L",
-        "price": "13"
+        "price": "13",
+        "i18n": {
+          "ro": {
+            "name": "Red Bull 0.25L"
+          },
+          "en": {
+            "name": "Red Bull 0.25L"
+          },
+          "bg": {
+            "name": "Red Bull 0.25L"
+          },
+          "tr": {
+            "name": "Red Bull 0.25L"
+          }
+        }
       },
       {
         "name": "Monster",
-        "price": "13"
+        "price": "13",
+        "i18n": {
+          "ro": {
+            "name": "Monster"
+          },
+          "en": {
+            "name": "Monster"
+          },
+          "bg": {
+            "name": "Monster"
+          },
+          "tr": {
+            "name": "Monster"
+          }
+        }
       },
       {
         "name": "Bere pahar 400ml",
-        "price": "10"
+        "price": "10",
+        "i18n": {
+          "ro": {
+            "name": "Bere pahar 400ml"
+          },
+          "en": {
+            "name": "Draft beer 400ml"
+          },
+          "bg": {
+            "name": "Бира чаша 400ml"
+          },
+          "tr": {
+            "name": "Bira bardak 400ml"
+          }
+        }
       },
       {
         "name": "Bere fără alcool 500ml",
-        "price": "10"
+        "price": "10",
+        "i18n": {
+          "ro": {
+            "name": "Bere fără alcool 500ml"
+          },
+          "en": {
+            "name": "Non-alcoholic beer 500ml"
+          },
+          "bg": {
+            "name": "Безалкохолна бира 500ml"
+          },
+          "tr": {
+            "name": "Alkolsüz bira 500ml"
+          }
+        }
       },
       {
         "name": "Bere Tuborg 330ml",
-        "price": "10"
+        "price": "10",
+        "i18n": {
+          "ro": {
+            "name": "Bere Tuborg 330ml"
+          },
+          "en": {
+            "name": "Tuborg beer 330ml"
+          },
+          "bg": {
+            "name": "Бира Тюборг 330ml"
+          },
+          "tr": {
+            "name": "Tuborg bira 330ml"
+          }
+        }
       },
       {
         "name": "Bere Tuborg 500ml",
-        "price": "11"
+        "price": "11",
+        "i18n": {
+          "ro": {
+            "name": "Bere Tuborg 500ml"
+          },
+          "en": {
+            "name": "Tuborg beer 500ml"
+          },
+          "bg": {
+            "name": "Бира Тюборг 500ml"
+          },
+          "tr": {
+            "name": "Tuborg bira 500ml"
+          }
+        }
       },
       {
         "name": "Bere Heineken 330ml",
-        "price": "12"
+        "price": "12",
+        "i18n": {
+          "ro": {
+            "name": "Bere Heineken 330ml"
+          },
+          "en": {
+            "name": "Heineken beer 330ml"
+          },
+          "bg": {
+            "name": "Бира Хайнекен 330ml"
+          },
+          "tr": {
+            "name": "Heineken bira 330ml"
+          }
+        }
       },
       {
         "name": "Bere Holsten Radler 330ml",
-        "price": "11"
+        "price": "11",
+        "i18n": {
+          "ro": {
+            "name": "Bere Holsten Radler 330ml"
+          },
+          "en": {
+            "name": "Holsten Radler beer 330ml"
+          },
+          "bg": {
+            "name": "Бира Холстен Радлер 330ml"
+          },
+          "tr": {
+            "name": "Holsten Radler bira 330ml"
+          }
+        }
       },
       {
         "name": "Bere Carlsberg 330ml",
-        "price": "12"
+        "price": "12",
+        "i18n": {
+          "ro": {
+            "name": "Bere Carlsberg 330ml"
+          },
+          "en": {
+            "name": "Carlsberg beer 330ml"
+          },
+          "bg": {
+            "name": "Бира Карлсберг 330ml"
+          },
+          "tr": {
+            "name": "Carlsberg bira 330ml"
+          }
+        }
       },
       {
         "name": "Bere Carlsberg 500ml",
-        "price": "13"
+        "price": "13",
+        "i18n": {
+          "ro": {
+            "name": "Bere Carlsberg 500ml"
+          },
+          "en": {
+            "name": "Carlsberg beer 500ml"
+          },
+          "bg": {
+            "name": "Бира Карлсберг 500ml"
+          },
+          "tr": {
+            "name": "Carlsberg bira 500ml"
+          }
+        }
       }
     ]
   },

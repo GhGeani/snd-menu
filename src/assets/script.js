@@ -13,6 +13,78 @@ function loadQOLFunctions() {
   selectFirstSection();
   handleMenuNavigation();
   handleScrollNavigation();
+  loadProductLanguageSelectors();
+}
+
+function detectUserLanguage() {
+  const supported = ['ro', 'en', 'bg', 'tr'];
+  const lang = (navigator.language || 'en').toLowerCase().split('-')[0];
+  return supported.includes(lang) ? lang : 'en';
+}
+
+function loadProductLanguageSelectors() {
+  const menuItems = document.querySelectorAll('.menu-item');
+  if (!menuItems.length) {
+    return;
+  }
+
+  const defaultLang = detectUserLanguage();
+
+  menuItems.forEach(menuItem => {
+    const buttons = menuItem.querySelectorAll('.js-lang-btn');
+    if (!buttons.length) {
+      return;
+    }
+
+    setActiveLangButton(buttons, defaultLang);
+    applyProductLanguage(menuItem, defaultLang);
+
+    buttons.forEach(btn => {
+      ['click', 'mousedown', 'touchstart'].forEach(eventName => {
+        btn.addEventListener(eventName, event => {
+          event.stopPropagation();
+        });
+      });
+
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        setActiveLangButton(buttons, lang);
+        applyProductLanguage(menuItem, lang);
+      });
+    });
+  });
+}
+
+function setActiveLangButton(buttons, lang) {
+  buttons.forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+}
+
+function getLocalizedText(element, language) {
+  if (!element) {
+    return '';
+  }
+  return element.dataset[language] || element.dataset.en || element.dataset.ro || '';
+}
+
+function applyProductLanguage(menuItem, language) {
+  const titleElement = menuItem.querySelector('.js-product-name');
+  const descriptionElement = menuItem.querySelector('.js-product-description');
+  const arrow = menuItem.querySelector('.arrow');
+
+  if (titleElement) {
+    titleElement.textContent = getLocalizedText(titleElement, language);
+  }
+
+  if (descriptionElement) {
+    const description = getLocalizedText(descriptionElement, language);
+    descriptionElement.textContent = description;
+    descriptionElement.classList.toggle('d-none', !description);
+    if (arrow) {
+      arrow.style.display = description ? 'inline-block' : 'none';
+    }
+  }
 }
 
 function setNavbarVisibility(c) {
