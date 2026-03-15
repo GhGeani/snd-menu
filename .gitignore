@@ -2,3 +2,4 @@ node_modules
 dist
 menu.pdf
 CLAUDE.md
+.claude
