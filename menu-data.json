@@ -3,7 +3,7 @@
     "Platouri": [
       {
         "name": "Platou tradițional (pentru 4 persoane)",
-        "price": "199",
+        "price": "205",
         "description": "pulpe dezosate, ficăței de pui, ciolan de porc, cârnăciori, murături, sos de usturoi, muștar, focaccia, ceapă roșie și cartofi wedges",
         "image": "imgs/t-plate.png",
         "i18n": {
@@ -51,7 +51,7 @@
       },
       {
         "name": "Platou rotisat (pentru 4 persoane)",
-        "price": "199",
+        "price": "205",
         "description": "jumătate de pui rotisat, pulpe de pui (3 buc), cașcaval pane (3 buc), ceapă pane (10 buc), coaste de porc (8 buc), murături asortate, sos tzatziki, cartofi (800g), focaccia și salată verde",
         "image": "imgs/roasted-plate.webp",
         "i18n": {
@@ -77,7 +77,7 @@
     "Meniuri": [
       {
         "name": "Meniu creveți grill (aprox. 450g)",
-        "price": "55",
+        "price": "57",
         "description": "creveți la grătar, cartofi wedges, sos de usturoi, lămâie și băutură la alegere",
         "i18n": {
           "ro": {
@@ -100,7 +100,7 @@
       },
       {
         "name": "Meniu aripioare crispy (aprox. 450g)",
-        "price": "32",
+        "price": "33",
         "description": "aripioare de pui, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere",
         "i18n": {
           "ro": {
@@ -123,7 +123,7 @@
       },
       {
         "name": "Meniu cârnăciori (aprox. 400g)",
-        "price": "27",
+        "price": "28",
         "description": "3 cârnăciori, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere",
         "i18n": {
           "ro": {
@@ -146,7 +146,7 @@
       },
       {
         "name": "Meniu ciolan de porc (aprox. 600g)",
-        "price": "65",
+        "price": "67",
         "description": "ciolan de porc, cartofi, sos de usturoi, salată de varză, chiflă și băutură la alegere",
         "i18n": {
           "ro": {
@@ -169,7 +169,7 @@
       },
       {
         "name": "Meniu crochete de pui (aprox. 450g)",
-        "price": "39",
+        "price": "40",
         "description": "5 crochete de pui, cartofi prăjiți, chiflă, sos de usturoi și băutură la alegere",
         "i18n": {
           "ro": {
@@ -192,7 +192,7 @@
       },
       {
         "name": "Meniu file piept de pui (aprox. 450g)",
-        "price": "35",
+        "price": "34",
         "description": "file de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere",
         "i18n": {
           "ro": {
@@ -215,7 +215,7 @@
       },
       {
         "name": "Meniu mixt S&D (aprox. 450g)",
-        "price": "35",
+        "price": "36",
         "description": "2 aripioare crispy, 2 crochete de pui, 4 mini chiftele, cartofi prăjiți, chiflă, sos de usturoi, ketchup și băutură la alegere",
         "i18n": {
           "ro": {
@@ -238,7 +238,7 @@
       },
       {
         "name": "Meniu șnițel de pui (aprox. 450g)",
-        "price": "34",
+        "price": "33",
         "description": "șnițel de pui, cartofi prăjiți, salată de varză, castraveți murați, ceapă, sos tzatziki, chiflă și băutură la alegere",
         "i18n": {
           "ro": {
@@ -261,7 +261,7 @@
       },
       {
         "name": "Meniu mici (aprox. 400g)",
-        "price": "26",
+        "price": "27",
         "description": "3 mici, cartofi prăjiți, chiflă, muștar, salată de varză și băutură la alegere",
         "i18n": {
           "ro": {
@@ -284,7 +284,7 @@
       },
       {
         "name": "Meniu nuggets (aprox. 400g)",
-        "price": "26",
+        "price": "27",
         "description": "8 nuggets de pui, cartofi prăjiți, sos de usturoi și băutură la alegere",
         "i18n": {
           "ro": {
@@ -307,7 +307,7 @@
       },
       {
         "name": "Meniu copii (aprox. 300g)",
-        "price": "22",
+        "price": "23",
         "description": "5 nuggets de pui, ketchup și băutură 👶",
         "i18n": {
           "ro": {
@@ -330,7 +330,7 @@
       },
       {
         "name": "Meniu rotisat (aprox. 500g)",
-        "price": "29",
+        "price": "30",
         "description": "pulpă de pui rotisat, cașcaval pane, cartofi prăjiți (200g), sos tzatziki, chiflă și băutură (apă sau suc)",
         "i18n": {
           "ro": {
@@ -353,7 +353,7 @@
       },
       {
         "name": "Meniu cârnat cu cașcaval",
-        "price": "27",
+        "price": "28",
         "description": "chiflă proaspătă (130g), cârnat cu cașcaval (100g), castraveți murați (40g), sos tzatziki (40g), ketchup (20g), cartofi prăjiți (200g) și o doză suc sau apă",
         "image": "imgs/carnat-cascaval-combo.webp",
         "i18n": {
@@ -395,7 +395,7 @@
       },
       {
         "name": "Cârnat cu cașcaval",
-        "price": "17",
+        "price": "18",
         "i18n": {
           "ro": {
             "name": "Cârnat cu cașcaval"
@@ -434,7 +434,7 @@
       "50cm": [
         {
           "name": "Pizza Casei",
-          "price": "55",
+          "price": "57",
           "description": "sos de pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei și porumb",
           "image": "imgs/pizza-casei.png",
           "i18n": {
@@ -458,7 +458,7 @@
         },
         {
           "name": "Pizza Țărănească",
-          "price": "55",
+          "price": "57",
           "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb",
           "image": "imgs/pizza-taraneasca.png",
           "i18n": {
@@ -482,7 +482,7 @@
         },
         {
           "name": "Pizza Kebab",
-          "price": "62",
+          "price": "64",
           "description": "sos de pizza, cartofi prăjiți, carne de pui, mozzarella, roșii și rucola",
           "image": "imgs/pizza-kebab.png",
           "i18n": {
@@ -508,7 +508,7 @@
       "30cm": [
         {
           "name": "Pizza Casei",
-          "price": "33",
+          "price": "34",
           "description": "sos de pizza, bacon, șuncă, mozzarella, salam chorizzo, ciuperci, măsline, ardei și porumb",
           "image": "imgs/pizza-casei.png",
           "i18n": {
@@ -532,7 +532,7 @@
         },
         {
           "name": "Pizza Țărănească",
-          "price": "33",
+          "price": "34",
           "description": "sos de pizza, cârnăciori, ceapă, mozzarella, bacon, ardei și porumb",
           "image": "imgs/pizza-taraneasca.png",
           "i18n": {
@@ -556,7 +556,7 @@
         },
         {
           "name": "Pizza Kebab",
-          "price": "36",
+          "price": "37",
           "description": "sos de pizza, cartofi prăjiți, carne de pui, mozzarella, roșii și rucola",
           "image": "imgs/pizza-kebab.png",
           "i18n": {
@@ -580,7 +580,7 @@
         },
         {
           "name": "Pizza Prosciutto crudo",
-          "price": "34",
+          "price": "35",
           "description": "sos de pizza, prosciutto crudo, mozzarella, rucola, roșii și parmezan",
           "image": "imgs/pizza-prosciutto-crudo.png",
           "i18n": {
@@ -604,7 +604,7 @@
         },
         {
           "name": "Pizza Chorizzo",
-          "price": "32",
+          "price": "33",
           "description": "sos de pizza, salam chorizzo și mozzarella",
           "image": "imgs/pizza-chorizzo.png",
           "i18n": {
@@ -628,7 +628,7 @@
         },
         {
           "name": "Pizza Cu ton",
-          "price": "32",
+          "price": "33",
           "description": "sos de pizza, ceapă, mozzarella, ton și porumb",
           "image": "imgs/pizza-ton.png",
           "i18n": {
@@ -652,7 +652,7 @@
         },
         {
           "name": "Pizza Margherita",
-          "price": "27",
+          "price": "28",
           "description": "sos de pizza, mozzarella",
           "i18n": {
             "ro": {
@@ -675,7 +675,7 @@
         },
         {
           "name": "Pizza Carbonara",
-          "price": "32",
+          "price": "33",
           "description": "sos alb, bacon, ou, mozzarella",
           "image": "imgs/pizza-carbonara.webp",
           "i18n": {
@@ -699,7 +699,7 @@
         },
         {
           "name": "Pizza Quattro stagioni",
-          "price": "32",
+          "price": "33",
           "description": "sos de pizza, șuncă, ton, măsline, ciuperci și mozzarella",
           "i18n": {
             "ro": {
@@ -722,7 +722,7 @@
         },
         {
           "name": "Pizza Sandwich cu pui",
-          "price": "35",
+          "price": "36",
           "description": "sos de pizza, carne de pui, mozzarella, măsline și ciuperci",
           "image": "imgs/pizza-s.png",
           "i18n": {
@@ -746,7 +746,7 @@
         },
         {
           "name": "Pizza Mortadella",
-          "price": "35",
+          "price": "36",
           "description": "sos de pizza, cremă de brânză, mozzarella, mortadella, rucola și parmezan",
           "i18n": {
             "ro": {
@@ -769,7 +769,7 @@
         },
         {
           "name": "Pizza Cremosa",
-          "price": "34",
+          "price": "35",
           "description": "sos alb, mozzarella și cremă de brânză, cu șuncă",
           "image": "imgs/pizza-cremosa.webp",
           "i18n": {
@@ -793,7 +793,7 @@
         },
         {
           "name": "Pizza Vegetală 30cm",
-          "price": "26",
+          "price": "27",
           "description": "sos de pizza, ciuperci, măsline, ardei, porumb și ceapă",
           "i18n": {
             "ro": {
@@ -816,7 +816,7 @@
         },
         {
           "name": "Pizza Focaccia",
-          "price": "13",
+          "price": "14",
           "description": "focaccia simplă",
           "i18n": {
             "ro": {
@@ -839,7 +839,7 @@
         },
         {
           "name": "Pizza Focaccia cu parmezan",
-          "price": "14",
+          "price": "15",
           "description": "focaccia cu parmezan",
           "i18n": {
             "ro": {
@@ -866,7 +866,7 @@
       "Mica": [
         {
           "name": "Shaorma de pui (aprox. 390g)",
-          "price": "25",
+          "price": "26",
           "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -888,32 +888,8 @@
           }
         },
         {
-          "name": "Shaorma roz de pui (aprox. 390g)",
-          "price": "27",
-          "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
-          "image": "imgs/shaorma-pink.png",
-          "i18n": {
-            "ro": {
-              "name": "Shaorma roz de pui (aprox. 390g)",
-              "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
-            },
-            "en": {
-              "name": "Pink chicken shawarma (approx. 390g)",
-              "description": "pink flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
-            },
-            "bg": {
-              "name": "Розова пилешка шаурма (ок. 390g)",
-              "description": "розова питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
-            },
-            "tr": {
-              "name": "Pembe tavuk şavarma (yaklaşık 390g)",
-              "description": "pembe lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
-            }
-          }
-        },
-        {
           "name": "Shaorma de vită (aprox. 390g)",
-          "price": "33",
+          "price": "34",
           "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -933,35 +909,12 @@
               "description": "lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
             }
           }
-        },
-        {
-          "name": "Shaorma roz de vită (aprox. 390g)",
-          "price": "31",
-          "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
-          "i18n": {
-            "ro": {
-              "name": "Shaorma roz de vită (aprox. 390g)",
-              "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
-            },
-            "en": {
-              "name": "Pink beef shawarma (approx. 390g)",
-              "description": "pink flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
-            },
-            "bg": {
-              "name": "Розова телешка шаурма (ок. 390g)",
-              "description": "розова питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
-            },
-            "tr": {
-              "name": "Pembe sığır eti şavarma (yaklaşık 390g)",
-              "description": "pembe lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
-            }
-          }
         }
       ],
       "Mare": [
         {
           "name": "Shaorma de pui (aprox. 590g)",
-          "price": "28",
+          "price": "29",
           "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -983,32 +936,8 @@
           }
         },
         {
-          "name": "Shaorma roz de pui (aprox. 590g)",
-          "price": "30",
-          "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
-          "image": "imgs/shaorma-pink.png",
-          "i18n": {
-            "ro": {
-              "name": "Shaorma roz de pui (aprox. 590g)",
-              "description": "lipie roz, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
-            },
-            "en": {
-              "name": "Pink chicken shawarma (approx. 590g)",
-              "description": "pink flatbread, chicken meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
-            },
-            "bg": {
-              "name": "Розова пилешка шаурма (ок. 590g)",
-              "description": "розова питка, пилешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
-            },
-            "tr": {
-              "name": "Pembe tavuk şavarma (yaklaşık 590g)",
-              "description": "pembe lavaş, tavuk eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
-            }
-          }
-        },
-        {
           "name": "Shaorma de vită (aprox. 590g)",
-          "price": "37",
+          "price": "38",
           "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1028,35 +957,12 @@
               "description": "lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
             }
           }
-        },
-        {
-          "name": "Shaorma roz de vită (aprox. 590g)",
-          "price": "34",
-          "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
-          "i18n": {
-            "ro": {
-              "name": "Shaorma roz de vită (aprox. 590g)",
-              "description": "lipie roz, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză"
-            },
-            "en": {
-              "name": "Pink beef shawarma (approx. 590g)",
-              "description": "pink flatbread, beef meat, french fries, pickled cucumbers, onion, garlic sauce, ketchup and mayonnaise"
-            },
-            "bg": {
-              "name": "Розова телешка шаурма (ок. 590g)",
-              "description": "розова питка, телешко месо, пържени картофи, кисели краставици, лук, чеснов сос, кетчуп и майонеза"
-            },
-            "tr": {
-              "name": "Pembe sığır eti şavarma (yaklaşık 590g)",
-              "description": "pembe lavaş, dana eti, patates kızartması, turşu salatalık, soğan, sarımsaklı sos, ketçap ve mayonez"
-            }
-          }
         }
       ],
       "Farfurie": [
         {
           "name": "Shaorma de pui la farfurie (aprox. 550g)",
-          "price": "31",
+          "price": "32",
           "description": "lipie, carne de pui, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1079,7 +985,7 @@
         },
         {
           "name": "Shaorma de vită la farfurie (aprox. 550g)",
-          "price": "40",
+          "price": "41",
           "description": "lipie, carne de vită, cartofi prăjiți, castraveți murați, ceapă, sos de usturoi, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1106,7 +1012,7 @@
       "Pui": [
         {
           "name": "Kebab de pui (aprox. 310g)",
-          "price": "24",
+          "price": "25",
           "description": "pită, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi",
           "i18n": {
             "ro": {
@@ -1129,7 +1035,7 @@
         },
         {
           "name": "Donner kebab de pui (aprox. 310g)",
-          "price": "31",
+          "price": "32",
           "description": "lipie kebab, carne de pui, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi",
           "i18n": {
             "ro": {
@@ -1152,7 +1058,7 @@
         },
         {
           "name": "Hamburger de pui (aprox. 390g)",
-          "price": "21",
+          "price": "22",
           "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1175,7 +1081,7 @@
         },
         {
           "name": "Hamburger cu ou de pui (aprox. 440g)",
-          "price": "23",
+          "price": "24",
           "description": "chiflă, carne de pui, salată de varză, cartofi prăjiți, ou, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1198,7 +1104,7 @@
         },
         {
           "name": "Cheeseburger de pui (aprox. 420g)",
-          "price": "23",
+          "price": "24",
           "description": "chiflă, carne de pui, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup",
           "i18n": {
             "ro": {
@@ -1221,7 +1127,7 @@
         },
         {
           "name": "Baghetă cu pui (aprox. 350g)",
-          "price": "20",
+          "price": "21",
           "description": "baghetă, piept de pui, roșii, salată verde și castraveți",
           "i18n": {
             "ro": {
@@ -1244,7 +1150,7 @@
         },
         {
           "name": "Sandwich cald (aprox. 250g)",
-          "price": "17",
+          "price": "18",
           "description": "șuncă, cașcaval, roșii și castraveți",
           "i18n": {
             "ro": {
@@ -1269,7 +1175,7 @@
       "Porc": [
         {
           "name": "Hamburger de porc (aprox. 390g)",
-          "price": "21",
+          "price": "22",
           "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1292,7 +1198,7 @@
         },
         {
           "name": "Hamburger cu ou de porc (aprox. 440g)",
-          "price": "23",
+          "price": "24",
           "description": "chiflă, carne de porc, salată de varză, cartofi prăjiți, ou, ketchup și maioneză",
           "i18n": {
             "ro": {
@@ -1315,7 +1221,7 @@
         },
         {
           "name": "Cheeseburger de porc (aprox. 420g)",
-          "price": "23",
+          "price": "24",
           "description": "chiflă, carne de porc, cașcaval, cartofi prăjiți, salată verde, ceapă, maioneză și ketchup",
           "i18n": {
             "ro": {
@@ -1338,7 +1244,7 @@
         },
         {
           "name": "Plescăviță (aprox. 400g)",
-          "price": "25",
+          "price": "26",
           "description": "plescăviță, cartofi prăjiți, sos tzatziki, salată de varză și chiflă",
           "i18n": {
             "ro": {
@@ -1361,7 +1267,7 @@
         },
         {
           "name": "Burger sârbesc (aprox. 400g)",
-          "price": "25",
+          "price": "26",
           "description": "plescăviță, chiflă, roșii, castraveți, salată verde și cartofi prăjiți",
           "i18n": {
             "ro": {
@@ -1386,7 +1292,7 @@
       "Vită": [
         {
           "name": "Kebab de vită (aprox. 310g)",
-          "price": "28",
+          "price": "29",
           "description": "pită, carne de vită, cartofi prăjiți, castraveți murați, ceapă, roșii și salată de varză, cu sos de usturoi",
           "i18n": {
             "ro": {
@@ -1409,7 +1315,7 @@
         },
         {
           "name": "Donner kebab de vită",
-          "price": "34",
+          "price": "35",
           "description": "lipie kebab, sos de usturoi, carne de vită, salată verde, ceapă și roșii",
           "image": "imgs/donner-kebab.png",
           "i18n": {
@@ -1528,7 +1434,7 @@
     "Deserturi": [
       {
         "name": "Clătite 2buc/200g",
-        "price": "11",
+        "price": "12",
         "image": "imgs/pancakes.jpeg",
         "i18n": {
           "ro": {
@@ -1547,7 +1453,7 @@
       },
       {
         "name": "Papanași (aprox. 150g)",
-        "price": "12",
+        "price": "13",
         "image": "imgs/donuts.jpeg",
         "i18n": {
           "ro": {
@@ -1696,7 +1602,7 @@
       },
       {
         "name": "Apă 0.5L",
-        "price": "9",
+        "price": "7",
         "i18n": {
           "ro": {
             "name": "Apă 0.5L"
@@ -1714,7 +1620,7 @@
       },
       {
         "name": "Cafea",
-        "price": "6",
+        "price": "7",
         "i18n": {
           "ro": {
             "name": "Cafea"
