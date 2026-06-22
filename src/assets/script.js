@@ -16,11 +16,7 @@ function loadQOLFunctions() {
   loadProductLanguageSelectors();
 }
 
-function detectUserLanguage() {
-  const supported = ['ro', 'en', 'bg', 'tr'];
-  const lang = (navigator.language || 'en').toLowerCase().split('-')[0];
-  return supported.includes(lang) ? lang : 'en';
-}
+const DEFAULT_LANG = 'ro';
 
 function loadProductLanguageSelectors() {
   const menuItems = document.querySelectorAll('.menu-item');
@@ -28,7 +24,7 @@ function loadProductLanguageSelectors() {
     return;
   }
 
-  const defaultLang = detectUserLanguage();
+  const defaultLang = DEFAULT_LANG;
 
   menuItems.forEach(menuItem => {
     const buttons = menuItem.querySelectorAll('.js-lang-btn');
